@@ -1,0 +1,17 @@
+{
+  "name": "document-backup",
+  "version": "1.0.0",
+  "description": "文档备份项目",
+  "main": "index.js",
+  "repository": "https://github.com/guoshunfa/document-backup.git",
+  "author": "guoshunfa <13301203454@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
