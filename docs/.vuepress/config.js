@@ -1,10 +1,11 @@
 module.exports = {
+    base: '/document-backup',
     themeConfig: {
         // 你的GitHub仓库
         repo: 'https://github.com/guoshunfa/document-backup',
         // 自定义仓库链接文字。
         repoLabel: 'GitHub',
-        // 侧边栏根据标题显示ß
+        // 侧边栏根据标题显示
         sidebar: 'auto',
         // 顶部导航菜单
         nav: [
