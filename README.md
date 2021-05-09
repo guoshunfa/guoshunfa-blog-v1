@@ -1,5 +1,6 @@
-# 文档b
-暂时将平时收藏的博客保留在这，后期再做整理。
+# 说明
+
+**项目描述：** 文档收留地。
 
 **拉取git:**             ```git clone https://github.com/guoshunfa/document-backup.git```
 

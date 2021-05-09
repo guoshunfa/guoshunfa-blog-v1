@@ -18,3 +18,16 @@
 · **命令行编辑文本**
 
  vim 文本路径
+
+
+
+### [Linux文件夹创建](https://www.xiaoheidiannao.com/command-line-for-beginners-creating-folders-and-files.html)
+
+### [Linux将文件复制粘贴到另外一个位置](https://blog.csdn.net/weixin_44177568/article/details/102499124)
+
+### [Linux切换用户](https://blog.csdn.net/jinsuyan123/article/details/54706250)
+
+### [在 Ubuntu（16.04）中使用 APT 安装 MySQL（5.7.25）](https://www.jianshu.com/p/5610ff23dada)
+
+[删除文件夹](https://blog.csdn.net/sqbzo/article/details/8990404)
+
