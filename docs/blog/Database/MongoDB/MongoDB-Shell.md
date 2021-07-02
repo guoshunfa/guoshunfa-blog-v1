@@ -118,7 +118,7 @@
 
 | **方法**                      | **描述**                                                     |
 | :---------------------------- | :----------------------------------------------------------- |
-| `Object.bsonsize(<document>)` | 打印<document> 的[BSON](https://mongodb.net.cn/manual/reference/glossary/#term-bson)大小（以字节为单位） |
+| `Object.bsonsize(<document>)` | 打印`<document>` 的[BSON](https://mongodb.net.cn/manual/reference/glossary/#term-bson)大小（以字节为单位） |
 
 ## 其他资源
 

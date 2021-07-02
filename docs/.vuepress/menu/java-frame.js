@@ -4,25 +4,23 @@ module.exports = {
         {
             text: 'Spring',
             items: [
-                { text: 'Spring 事务', link: '/blog/Java-Frame/Spring/Spring-Transaction' },
-                { text: 'Spring JDBCTemplate', link: '/blog/Java-Frame/Spring/Spring-JDBCTemplate' },
+                // { text: 'Spring 事务', link: '/blog/Java-Frame/Spring/Spring-Transaction' },
                 { text: 'Spring Event', link: '/blog/Java-Frame/Spring/Spring-Event' },
                 { text: 'Spring 校验器（Validator）', link: '/blog/Java-Frame/Spring/Spring-Validator' },
             ]
         },
-        {
-            text: 'SpringBoot',
-            items: [
-                { text: 'SpringBoot 注解使用说明', link: '/blog/Java-Frame/SpringBoot/SpringBoot-annotation' },
-                { text: 'SpringBoot 集成Lombok', link: '/blog/Java-Frame/SpringBoot/SpringBoot-Lombok' },
-            ]
-        },
-        {
-            text: 'SpringCloud',
-            items: [
-                { text: 'SpringCloud', link: '/blog/Java-Frame/springcloud/springcloud' },
-            ]
-        },
+        // {
+        //     text: 'SpringBoot',
+        //     items: [
+        //         { text: 'SpringBoot 注解使用说明', link: '/blog/Java-Frame/SpringBoot/SpringBoot-annotation' },
+        //     ]
+        // },
+        // {
+        //     text: 'SpringCloud',
+        //     items: [
+        //         { text: 'SpringCloud', link: '/blog/Java-Frame/springcloud/springcloud' },
+        //     ]
+        // },
         {
             text: 'Tomcat',
             items: [

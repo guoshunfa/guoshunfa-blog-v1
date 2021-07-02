@@ -20,8 +20,6 @@ module.exports = {
         {
             text: '@ @',
             items: [
-                { text: '常用操作', link: '/blog/java/Java-Common/' },
-                { text: '集合', link: '/blog/java/Java-Collection/' },
                 { text: '工具包', link: '/blog/java/Java-Toolkit/' },
             ]
         }
