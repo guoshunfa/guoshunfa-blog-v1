@@ -1,5 +1,6 @@
+# Linux-wait
 
-# **Linux**
+
 
 · [利用Linux命令在终端打开文件的方法](https://blog.csdn.net/liweiminlining/article/details/51497866)
 

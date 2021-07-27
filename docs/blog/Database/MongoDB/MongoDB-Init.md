@@ -2,11 +2,11 @@
 
 ## MAC OSX平台安装MongdoDB
 
+### 下载安装
+
 MongoDB 提供了 OSX 平台上 64 位的安装包，你可以在官网下载安装包。
 
 下载地址：https://www.mongodb.com/download-center#community
-
-
 
 > 从 MongoDB 3.0 版本开始只支持 OS X 10.7 (Lion) 版本及更新版本的系统。
 接下来我们使用 curl 命令来下载安装：
@@ -22,7 +22,6 @@ sudo curl -O https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-4.0.9.tgz
 sudo tar -zxvf mongodb-osx-ssl-x86_64-4.0.9.tgz
 
 # 重命名为 mongodb 目录
-
 sudo mv mongodb-osx-x86_64-4.0.9/ mongodb
 ```
 
@@ -31,14 +30,18 @@ sudo mv mongodb-osx-x86_64-4.0.9/ mongodb
 export PATH=/usr/local/mongodb/bin:$PATH
 ```
 
-创建日志及数据存放的目录：
+### 启动/配置
 
-#### 数据存放路径：
+> mongodb 启动时必须配置数据源。
+
+#### 数据存放路径
+
 ```
 sudo mkdir -p /usr/local/var/mongodb
 ```
 
-#### 日志文件路径：
+#### 日志文件路径
+
 ```
 sudo mkdir -p /usr/local/var/log/mongodb
 ```
@@ -60,6 +63,8 @@ mongod --dbpath /usr/local/var/mongodb --logpath /usr/local/var/log/mongodb/mong
 **--logpath 设置日志存放目录**
 
 **--fork 在后台运行**
+
+**--bind_ip_all 允许所有的ip链接**
 
 如果不想在后端运行，而是在控制台上查看运行过程可以直接设置配置文件启动：
 ```
@@ -85,7 +90,23 @@ MongoDB server version: 4.0.9
 > 
 ```
 
+### 关闭服务
+
+查看 mongod 服务是否启动：
+
+```
+ps aux | grep -v grep | grep mongod
+```
+
+关闭服务
+
+```shell
+# pid: mongodb对应的pid
+sudo kill pid
+```
+
 ## 使用 brew 安装
+
 此外你还可以使用 OSX 的 brew 来安装 mongodb：
 ```
 brew tap mongodb/brew

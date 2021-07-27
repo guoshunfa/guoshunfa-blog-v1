@@ -5,6 +5,7 @@ module.exports = {
             text: 'JS',
             items: [
                 { text: 'JS模块规范', link: '/blog/Web/JS/JS-Module-Specification/' },
+                { text: 'JS 浏览器窗口操作', link: '/blog/Web/JS/JS-Window/' },
             ]
         },
         {

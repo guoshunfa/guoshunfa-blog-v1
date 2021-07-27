@@ -2,9 +2,10 @@ module.exports = {
     text: 'Java',
     items: [
         {
-            text: '接口设计',
+            text: '基础知识',
             items: [
-                { text: '接口定义', link: '/blog/Java/Interface/' },
+                { text: '文件操作', link: '/blog/Java/Common/Common-file.md' },
+                { text: '排序', link: '/blog/Java/Common/Common-sort.md' },
             ]
         }, 
         {
@@ -18,9 +19,16 @@ module.exports = {
             ]
         }, 
         {
+            text: '注解',
+            items: [
+                { text: '接口注解', link: '/blog/Java/Annotation/Interface.md' },
+                { text: 'package-info.java', link: '/blog/Java/Annotation/package-info.md' },
+            ]
+        },
+        {
             text: '@ @',
             items: [
-                { text: '工具包', link: '/blog/java/Java-Toolkit/' },
+                { text: 'Awesome-Java', link: '/blog/java/Tool/Awesome-Java/' },
             ]
         }
     ]

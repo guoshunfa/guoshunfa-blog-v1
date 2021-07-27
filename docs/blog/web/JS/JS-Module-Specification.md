@@ -1,6 +1,7 @@
 # ES6的export与Nodejs的module.exports
+
 [module.exports与exports，export与export default之间的关系和区别](https://www.cnblogs.com/fayin/p/6831071.html)
- 
+
 首先我们要明白一个前提，CommonJS模块规范和ES6模块规范完全是两种不同的概念。
 
 ## CommonJS模块规范

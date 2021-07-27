@@ -5,6 +5,10 @@ let live_steam = require('./menu/live-steam.js');
 let markdown = require('./menu/markdown.js');
 let os = require('./menu/os.js');
 let web = require('./menu/web.js');
+let test = require('./menu/test.js');
+let tool = require('./menu/tool.js');
+let operation_maintenance = require('./menu/operation-maintenance.js');
+let other = require('./menu/other.js');
 
 module.exports = {
     base: '/document-backup/',
@@ -20,10 +24,14 @@ module.exports = {
             java,
             java_frame,
             database,
+            test,
             web,
+            operation_maintenance,
             live_steam,
             markdown,
-            os
+            os,
+            other,
+            tool
         ]
     }
 }

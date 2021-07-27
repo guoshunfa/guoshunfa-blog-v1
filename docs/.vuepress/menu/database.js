@@ -4,8 +4,10 @@ module.exports = {
         {
             text: 'MongoDB',
             items: [
+                
+                { text: 'MongoDB 中文手册', link: 'https://mongodb.net.cn/manual/' },
                 { text: 'MongoDB 安装/服务暂停和启动', link: '/blog/Database/MongoDB/MongoDB-Init' },
-                // { text: 'MongoDB 表达式操作符', link: '/blog/Database/MongoDB/MongoDB-Expression' },
+                { text: 'MongoDB 表达式操作符', link: '/blog/Database/MongoDB/MongoDB-Expression' },
                 { text: 'MongoDB Shell语法', link: '/blog/Database/MongoDB/MongoDB-Shell' },
                 { text: 'MongoDB 执行JS脚本', link: '/blog/Database/MongoDB/MongoDB-Script' },
             ]
