@@ -1,5 +1,5 @@
 module.exports = {
-    text: '工具',
+    text: '在线工具箱',
     items: [
         {
             text: '开发',
@@ -14,5 +14,14 @@ module.exports = {
                 { text: 'Mac APP下载', link: 'https://www.macapp.so/' },
             ]
         },
+        {
+            text: '反编译',
+            items: [
+                { text: '反编译 Jar', link: 'http://www.decompiler.com' },
+                { text: '反编译 Class', link: 'http://javare.cn/De' },
+            ]
+        },
+
+        
     ]
 }

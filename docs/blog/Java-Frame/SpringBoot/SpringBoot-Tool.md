@@ -12,7 +12,7 @@
         </dependency>
 ```
 
-## demo
+### demo
 
 ```java
     public static void main(String[] args) throws IOException {
@@ -35,5 +35,15 @@
 
 ## Swagger API
 
-## Hutool 
+## Hutool
+
 [Hutool-Java工具集](https://hutool.cn/docs/#/)
+
+```xml
+<dependency>
+    <groupId>cn.hutool</groupId>
+    <artifactId>hutool-all</artifactId>
+    <version>5.7.6</version>
+</dependency>
+```
+

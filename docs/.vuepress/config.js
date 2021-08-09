@@ -1,14 +1,13 @@
 let database = require('./menu/database.js');
 let java = require('./menu/java.js');
 let java_frame = require('./menu/java-frame.js');
-let live_steam = require('./menu/live-steam.js');
-let markdown = require('./menu/markdown.js');
 let os = require('./menu/os.js');
 let web = require('./menu/web.js');
 let test = require('./menu/test.js');
 let tool = require('./menu/tool.js');
 let operation_maintenance = require('./menu/operation-maintenance.js');
 let other = require('./menu/other.js');
+let design_patterns = require('./menu/design-patterns.js');
 
 module.exports = {
     base: '/document-backup/',
@@ -22,13 +21,12 @@ module.exports = {
         // 顶部导航菜单
         nav: [
             java,
+            design_patterns,
             java_frame,
             database,
             test,
             web,
             operation_maintenance,
-            live_steam,
-            markdown,
             os,
             other,
             tool

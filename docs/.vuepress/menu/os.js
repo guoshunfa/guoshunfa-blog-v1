@@ -1,11 +1,11 @@
 module.exports = {
-    text: '操作系统',
+    text: 'OS',
     items: [
         {
             text: 'Linux',
             items: [
                 { text: 'Linux 描述', link: '/blog/OS/Linux/Linux-Init.md' },
-                { text: 'Linux 常用命令记录', link: '/blog/OS/Linux/Linux-Command.md' },
+                { text: 'Linux 命令', link: '/blog/OS/Linux/Linux-Shell.md' },
             ]
         },
         {
