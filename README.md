@@ -2,7 +2,7 @@
 
 **项目描述：** 文档收留地。
 
-**拉取git:**             `git clone https://github.com/guoshunfa/document-backup.git`
+**拉取git:**             `git clone https://gitee.com/guoshunfa/gsf-blog.git`
 
 **加载文件包:**      `npm install`
 
@@ -14,5 +14,4 @@
 
 **配置:**          `/docs/.vuepress/config.js`
 
-[**git地址**](https://github.com/guoshunfa/document-backup)
-ß
+[**git地址**](https://gitee.com/guoshunfa/gsf-blog)
