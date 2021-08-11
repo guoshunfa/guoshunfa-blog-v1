@@ -1,10 +1,63 @@
-# 未知项记录
+# 文档目录思路
 
+## 目录优化
 
+将所有Java进行汇总，归为一类。
+
+每类技术占一个菜单。
+
+## 主体思路
+
+- Java基础（https://zhuanlan.zhihu.com/p/28615617）
+  - 抽象类/接口(http://www.itwanger.com/java/2019/11/06/java-abstract-interface.html)
+  - 集合/基本数据类型
+  - 线程/线程池
+  - 异常/自定义异常
+  - 注解/自定义注解
+  - I/O
+  - 反射
+  - 事务
+  - 锁
+  - session/cookie
+  - 23种设计模式
+- Java框架
+  - spring源码
+  - spring使用
+  - springboot
+  - maven
+  - springcloud
+  - tomcat
+  - Log
+  - quartz
+- 数据库
+  - mongodb
+  - mysql
+  - redis
+  - es
+- web前端
+  - js
+  - css
+  - jq
+  - vue
+  - android
+- 运维
+  - linux shell
+  - sh 文件
+  - docker
+- 测试
+  - testng
+- 其他
+  - markdown 语法
+  - python
+  - 直播流
+  - 内网穿透
+  - 抓包
+
+# 零碎项
 
 | up就完了，哪来那么多困难。                                   |
 | ------------------------------------------------------------ |
-| linux命令<br/> ssh 用密钥pem文件连接                         |
+| linux命令<br/> ssh 用密钥pem文件连接1                        |
 | 框架 版本控制，profiles                                      |
 | java23种设计模式，理论➕代码。                                |
 | spring源码                                                   |

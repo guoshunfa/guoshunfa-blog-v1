@@ -13,5 +13,3 @@
 **打包发布到Github Pages:**     `yarn deploy`
 
 **配置:**          `/docs/.vuepress/config.js`
-
-[**git地址**](https://gitee.com/guoshunfa/gsf-blog)
