@@ -1,0 +1,80 @@
+---
+date: 2021-08-13
+tags:
+ - Redis
+categories: 
+ - 数据库
+---
+# Redis 安装/服务暂停与启动
+
+## Mac 系统
+
+### 安装Homebrew
+
+如果已经安装可以忽略，没有安装的请查看小明之前写好的文章 [mac安装homebrew](https://link.juejin.cn/?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2Fa454PtDeCtqWykd2uqP0ig)
+
+### 使用Homebrew安装Redis
+
+#### (1) 安装命令
+
+```
+brew install redis
+复制代码
+```
+
+#### (2) 查看软件安装及配置文件位置
+
+Homebrew安装的软件会默认在`/usr/local/Cellar/`路径下；
+
+redis的配置文件`redis.conf`存放在`/usr/local/etc`路径下。
+
+#### (3) 启动redis服务
+
+###### 方法一：
+
+brew除了可以帮助我们安装软件以外，还可以帮助我们启动软件
+
+```
+brew services start redis
+复制代码
+```
+
+###### 方法二：
+
+```
+redis-server /usr/local/etc/redis.conf
+复制代码
+```
+
+#### (4) 查看redis服务进程
+
+我们可以通过下面命令查看redis是否正在运行
+
+```
+ps axu | grep redis
+复制代码
+```
+
+#### (5) redis-cli连接redis服务
+
+redis默认端口号**6379**，默认**auth**为空，输入以下命令即可连接
+
+```
+redis-cli -h 127.0.0.1 -p 6379
+复制代码
+```
+
+#### (6) 关闭redis服务
+
+优雅的关闭`redis-cli shutdown`或者杀死`sudo pkill redis-server`
+
+#### (7) redis.conf配置文件说明
+
+redis默认是前台启动，如果我们想以守护进程的方式运行（后台运行），可以在**redis.conf**中将`daemonize no`,修改成`yes`即可。
+
+
+
+## Linux 系统
+
+### [Linux安装Redis](https://blog.csdn.net/m0_37959155/article/details/108897863)
+

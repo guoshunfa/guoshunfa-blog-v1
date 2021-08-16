@@ -1,0 +1,99 @@
+---
+date: 2021-08-13
+tags:
+ - SpringBoot
+categories: 
+ - Java
+---
+# SpringBoot 常用注解
+
+## 启动类注解
+
+### @SpringBootApplication
+
+​		标注这个类是属于SpringBoot的启动类，从源代码中可以获悉，这个注解被@Configuration、@EnableAutoConfiguration、@ComponentScan 注解所修饰，换言之 Springboot 提供了统一的注解来替代以上三个注解。
+
+这里有个注意点：
+
+​		业务代码要放在这个启动类的下层。
+
+### @EnableFeignClients
+
+​		加上这个注解，表示这个服务支持调用远程服务。[详情](https://www.cnblogs.com/UniqueColor/p/7130782.html)
+
+### @EnableEurekaClient
+
+​		这个注解是必须的，表示这个注解要注册到某个Eureka服务（注册中心）中，就相当于是给这个服务在一个群里面加了一个通行证，通行证的具体内容就涉及到了application.yml配置文件里面了，一般在配置文件中会有下面的配置：
+
+```yml
+eureka:
+  client:
+    serviceurl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+```
+
+
+​		代表注册到上面的那个注册中心。这个注册中心里面的服务包括里面的所有的接口都可以通过协商（对方暴露接口）之后直接按照规则调用。
+
+### @MapperScan
+
+​		上面的那个注解是用来标注扫描dao范围的，这里如果你使用的MyBatis的话，需要通过配置文件来指定Mapper和主要的配置文件的位置，配置文件大概如下：
+
+```yml
+mybatis:
+  config-location: classpath:  classpath:com/test/****/sqlmap/config.xml
+  mapper-locations: classpath:com/test/****/sqlmap/*/*.xml
+```
+
+​		上面的配置要根据自己的项目的具体模块优化。
+
+### @EnableRedisHttpSession
+
+这里是通过这个注解获得缓存session的内容，还需要配合配置文件完成，主要是session的配置：
+
+```yml
+spring:
+  redis:
+    host: 127.0.0.1
+    password: ****
+    port: ****
+```
+
+如果在代码中需要用到session内容时，直接使用注解即可：
+
+```java
+@Autowired
+private HttpServletRequest request;
+
+//代码中直接使用上面的request可以获得session
+HttpSession session = request.getSession();
+Object *** = session.getAttribute("***");
+```
+
+
+通过上面的办法可以获得请求中的Session。
+
+**maxInactiveIntervalInSeconds**的作用就是设置redis销毁session的时间，可以根据具体的业务配置。
+
+ 
+
+**拓展：还有一种方法可以快速获得session，这个是属于SpringMVC的特性，不展开了，直接上代码。**
+
+```java
+package com.controller;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CookieValue;
+import org.springframework.web.bind.annotation.RequestMapping;
+@Controller
+public class HelloWorldController {
+	@RequestMapping("/cookieValueTest")
+	public void cookieValueTest(@CookieValue(value="JSESSIONID")String sessionId) {
+		System.out.println("通过@CookieValue获得JSESSIONID:"+sessionId);
+	}
+}
+```
+
+
+
+
+

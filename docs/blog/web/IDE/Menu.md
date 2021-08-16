@@ -1,4 +1,0 @@
-# IDE
-
-- [VSCode](./VSCode.md)
-
