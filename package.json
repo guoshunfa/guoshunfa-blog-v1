@@ -1,18 +1,24 @@
 {
-  "name": "aaa",
+  "name": "gsf-blog-vdoing",
   "version": "1.0.0",
-  "author": "reco_luan",
-  "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
-  },
+  "main": "index.js",
+  "license": "MIT",
   "devDependencies": {
-    "vuepress": "1.8.2",
-    "vuepress-theme-reco": "^1.6.6"
+    "@mr-hope/vuepress-plugin-comment": "^1.19.1",
+    "@vssue/api-gitee-v5": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-one-click-copy": "^1.0.5",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-theme-vdoing": "^1.8.3"
   },
-  "description": "",
-  "dependencies": {
-    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.3",
-    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5"
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
   }
 }
