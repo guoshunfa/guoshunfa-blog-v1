@@ -1,7 +1,7 @@
 // head
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-  ['link', { rel: 'icon', href: '/img/panda-logo.jpg' }], //favicons，资源放在public文件夹
+  ['link', { rel: 'icon', href: '/img/panda/panda_top01.png' }], //favicons，资源放在public文件夹
   [
     'meta',
     {

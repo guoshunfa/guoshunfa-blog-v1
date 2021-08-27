@@ -108,7 +108,17 @@ export default {
     isArticle () {
       return this.$frontmatter.article !== false
     }
-  }
+  },
+  // watch: {
+  //    '$route' (to, from) {
+  //       if(to.path !==  from.path){
+  //         this.$router.go(0)
+  //       }else{
+  //          // nothing
+  //      }
+  //    }
+  //  }, 
+
 }
 </script>
 

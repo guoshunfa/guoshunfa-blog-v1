@@ -362,6 +362,9 @@ export default {
         h1
           margin 0
           font-size 3.2rem
+          font-family: Hannotate SC
+        p 
+          font-family: Hannotate SC
         .description, .action
           margin 1.5rem auto
         .description
