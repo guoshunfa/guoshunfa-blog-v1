@@ -26,7 +26,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "sh deploy.sh",
-    "baiduPush": "node utils/baiduPush.js https://pandacode.cn && sh baiduPush.sh"
+    "baiduPush": "node utils/baiduPush.js https://doc.pandacode.cn && sh baiduPush.sh"
   },
   "dependencies": {
     "async-validator": "1.11.5",

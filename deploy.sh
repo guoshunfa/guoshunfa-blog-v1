@@ -9,7 +9,7 @@ yarn build
 # 进入生成的文件夹
 cd ./docs/.vuepress/dist
 
-echo pandacode.cn > CNAME
+echo doc.pandacode.cn > CNAME
 
 # git
 git init
