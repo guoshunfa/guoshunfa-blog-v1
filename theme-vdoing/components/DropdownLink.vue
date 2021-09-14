@@ -20,6 +20,7 @@
           :key="subItem.link || index"
           v-for="(subItem, index) in item.items"
         >
+          
           <h4 v-if="subItem.type === 'links'">{{ subItem.text }}</h4>
 
           <ul class="dropdown-subitem-wrapper" v-if="subItem.type === 'links'">

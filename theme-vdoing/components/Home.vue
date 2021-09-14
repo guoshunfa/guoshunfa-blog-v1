@@ -265,6 +265,7 @@ export default {
         }
       })
     }
+    
   },
   beforeDestroy () {
     clearTimeout(this.playTimer)

@@ -5,7 +5,7 @@ const nav = require('./nav.js');
 module.exports = {
   nav,
   sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: '/img/panda/panda_top01.png', // 导航栏logo
+  logo: 'https://cdn.jsdelivr.net/gh/guoshunfa/files/panda/202109101822245.png', // 导航栏logo
   // repo: 'panda/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -30,13 +30,13 @@ module.exports = {
 
   titleBadge: true, // 文章标题前的图标是否显示，默认true
   titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
-    '/img/icon/snacks/瓜子.png',
-    '/img/icon/snacks/巴旦木.png',
-    '/img/icon/snacks/华夫饼.png',
-    '/img/icon/snacks/橘子片.png',
-    '/img/icon/snacks/莲藕片.png',
-    '/img/icon/snacks/龙眼干.png',
-    '/img/icon/snacks/牛角包.png',
+    'https://cdn.jsdelivr.net/gh/guoshunfa/files/icon/snacks/202109101829762.png',
+    'https://cdn.jsdelivr.net/gh/guoshunfa/files/icon/snacks/202109101829730.png',
+    'https://cdn.jsdelivr.net/gh/guoshunfa/files/icon/snacks/202109101829693.png',
+    'https://cdn.jsdelivr.net/gh/guoshunfa/files/icon/snacks/202109101829641.png',
+    'https://cdn.jsdelivr.net/gh/guoshunfa/files/icon/snacks/202109101829616.png',
+    'https://cdn.jsdelivr.net/gh/guoshunfa/files/icon/snacks/202109101829575.png',
+    'https://cdn.jsdelivr.net/gh/guoshunfa/files/icon/snacks/202109101829534.png',
   ],
   contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
 
@@ -58,7 +58,7 @@ module.exports = {
   blogger: {
     // 博主信息，显示在首页侧边栏
     // avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    avatar: '/img/panda/panda_head01.png',
+    avatar: 'https://cdn.jsdelivr.net/gh/guoshunfa/files/panda/202109101822562.png',
     name: '熊猫 🐼',
     slogan: 'up up up',
   },
@@ -87,7 +87,7 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'Panda | <a href="https://github.com/guoshunfa/guoshunfa.github.io" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      '| <a href="https://beian.miit.gov.cn/" target="_blank" rel="external nofollow">京ICP备2021027819号-1</a>', // 博客版权信息，支持a标签
   },
   // htmlModules // 插入hmtl(广告)模块
 }

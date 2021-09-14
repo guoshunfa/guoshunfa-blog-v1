@@ -285,6 +285,7 @@ export function compareDate (a, b) {
 
 // 将特殊符号编码（应用于url）
 export function encodeUrl (str) {
+  console.log("url")
   str = str + ''
   str = str.replace(/ |((?=[\x21-\x7e]+)[^A-Za-z0-9])/g, '-')
   return str

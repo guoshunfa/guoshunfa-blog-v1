@@ -102,8 +102,18 @@
             :to="`/categories/?category=${encodeURIComponent(item)}`"
             v-for="(item, index) in articleInfo.categories"
             :key="index"
-            >{{ item + ' ' }}</router-link
+            >{{ item + " " }}</router-link
           >
+        </div>
+        <div>
+          <span
+            :id="getRouterPath()"
+            class="leancloud_visitors"
+            :data-flag-title="getRouterPath()"
+          >
+            <em class="post-meta-item-text">访问次数: </em>
+            <i class="leancloud-visitors-count">1000000</i>
+          </span>
         </div>
       </div>
     </div>
@@ -112,39 +122,55 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      articleInfo: {}
-    }
+      articleInfo: {},
+      router_path: {},
+    };
   },
-  created () {
-    this.articleInfo = this.getPageInfo()
+  created() {
+    this.articleInfo = this.getPageInfo();
+    console.log("this.articleInfo", this.articleInfo);
+    console.log("this.router_path", this.router_path);
   },
   watch: {
-    '$route.path' () {
-      this.articleInfo = this.getPageInfo()
-    }
+    "$route.path"() {
+      this.articleInfo = this.getPageInfo();
+      console.log("this.articleInfo", this.articleInfo);
+      console.log("this.router_path", this.router_path);
+    },
   },
   methods: {
-    getPageInfo () {
-      const pageInfo = this.$page
-      const { relativePath } = pageInfo
-      const { sidebar } = this.$themeConfig
+    getRouterPath(){
+      return this.$router.history.current.path;
+    },
+    getPageInfo() {
+      const pageInfo = this.$page;
+      const { relativePath } = pageInfo;
+      const { sidebar } = this.$themeConfig;
 
       // 分类采用解析文件夹地址名称的方式
-      const relativePathArr = relativePath.split('/')
+      const relativePathArr = relativePath.split("/");
 
-      const classifyArr = relativePathArr[0].split('.')
-      const classify1 = classifyArr.length > 1 ? classifyArr[1] : classifyArr[0] // 文章一级分类名称
-      const classify2 = relativePathArr.length > 2 ? relativePathArr[1].split('.')[1] : undefined// 文章二级分类名称
-      const classify3 = relativePathArr.length > 3 ? relativePathArr[2].split('.')[1] : undefined// 文章三级分类名称
+      const classifyArr = relativePathArr[0].split(".");
+      const classify1 =
+        classifyArr.length > 1 ? classifyArr[1] : classifyArr[0]; // 文章一级分类名称
+      const classify2 =
+        relativePathArr.length > 2
+          ? relativePathArr[1].split(".")[1]
+          : undefined; // 文章二级分类名称
+      const classify3 =
+        relativePathArr.length > 3
+          ? relativePathArr[2].split(".")[1]
+          : undefined; // 文章三级分类名称
 
-      const cataloguePermalink = sidebar && sidebar.catalogue ? sidebar.catalogue[classify1] : undefined// 目录页永久链接
-      const author = this.$frontmatter.author || this.$themeConfig.author // 作者
-      let date = (pageInfo.frontmatter.date || '').split(' ')[0] // 文章创建时间
+      const cataloguePermalink =
+        sidebar && sidebar.catalogue ? sidebar.catalogue[classify1] : undefined; // 目录页永久链接
+      const author = this.$frontmatter.author || this.$themeConfig.author; // 作者
+      let date = (pageInfo.frontmatter.date || "").split(" ")[0]; // 文章创建时间
 
       // 获取页面frontmatter的分类（碎片化文章使用）
-      const { categories } = this.$frontmatter
+      const { categories } = this.$frontmatter;
 
       return {
         date,
@@ -153,70 +179,109 @@ export default {
         classify3,
         cataloguePermalink,
         author,
-        categories
+        categories,
+      };
+    },
+  },
+};
+</script>
+
+<style lang='stylus' scoped>
+@require '../styles/wrapper.styl';
+
+.articleInfo-wrap {
+  @extend $wrapper;
+  position: relative;
+  z-index: 1;
+  color: #888;
+
+  .articleInfo {
+    overflow: hidden;
+    font-size: 0.92rem;
+
+    .breadcrumbs {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: inline-block;
+      line-height: 2rem;
+
+      @media (max-width: 960px) {
+        width: 100%;
+      }
+
+      li {
+        list-style-type: none;
+        float: left;
+        padding-right: 5px;
+
+        &:after {
+          content: '/';
+          margin-left: 5px;
+          color: #999;
+        }
+
+        &:last-child {
+          &:after {
+            content: '';
+          }
+        }
+
+        a {
+          color: #888;
+
+          &:before {
+            font-size: 0.92rem;
+          }
+
+          &:hover {
+            color: $accentColor;
+          }
+        }
+
+        .icon-home {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .info {
+      float: right;
+      line-height: 32px;
+
+      @media (max-width: 960px) {
+        float: left;
+      }
+
+      div {
+        float: left;
+        margin-left: 20px;
+        font-size: 0.8rem;
+
+        @media (max-width: 960px) {
+          margin: 0 20px 0 0;
+        }
+
+        &:before {
+          margin-right: 3px;
+        }
+
+        a {
+          color: #888;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        a.beLink {
+          &:hover {
+            color: $accentColor;
+            text-decoration: underline;
+          }
+        }
       }
     }
   }
 }
-</script>
-
-<style lang='stylus' scoped>
-@require '../styles/wrapper.styl'
-
-.articleInfo-wrap
-  @extend $wrapper
-  position relative
-  z-index 1
-  color #888
-  .articleInfo
-    overflow hidden
-    font-size 0.92rem
-    .breadcrumbs
-      margin 0
-      padding 0
-      overflow hidden
-      display inline-block
-      line-height 2rem
-      @media (max-width 960px)
-        width 100%
-      li
-        list-style-type none
-        float left
-        padding-right 5px
-        &:after
-          content '/'
-          margin-left 5px
-          color #999
-        &:last-child
-          &:after
-            content ''
-        a
-          color #888
-          &:before
-            font-size 0.92rem
-          &:hover
-            color $accentColor
-        .icon-home
-          text-decoration none
-    .info
-      float right
-      line-height 32px
-      @media (max-width 960px)
-        float left
-      div
-        float left
-        margin-left 20px
-        font-size 0.8rem
-        @media (max-width 960px)
-          margin 0 20px 0 0
-        &:before
-          margin-right 3px
-        a
-          color #888
-          &:hover
-            text-decoration none
-        a.beLink
-          &:hover
-            color $accentColor
-            text-decoration underline
 </style>

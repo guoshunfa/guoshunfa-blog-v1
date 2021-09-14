@@ -7,12 +7,17 @@
     "@mr-hope/vuepress-plugin-comment": "^1.19.1",
     "@vssue/api-gitee-v5": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "element-ui": "^2.15.6",
+    "gray-matter": "^4.0.3",
+    "tracer": "^1.1.5",
     "vuepress": "^1.8.2",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-element-ui": "^1.1.0",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-mermaidjs": "^1.8.1",
     "vuepress-plugin-one-click-copy": "^1.0.5",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-theme-vdoing": "^1.8.3"
@@ -20,6 +25,11 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "sh deploy.sh"
+    "deploy": "sh deploy.sh",
+    "baiduPush": "node utils/baiduPush.js https://pandacode.cn && sh baiduPush.sh"
+  },
+  "dependencies": {
+    "async-validator": "1.11.5",
+    "express": "^4.17.1"
   }
 }
