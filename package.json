@@ -24,7 +24,7 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "build": "vuepress build docs", 
     "deploy": "sh deploy.sh",
     "baiduPush": "node utils/baiduPush.js https://doc.pandacode.cn && sh baiduPush.sh"
   },
