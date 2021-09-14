@@ -8,7 +8,7 @@
 
 # 介绍
 
-这个项目是[pandacode](https://pandacode.cn)对应[知识库](http://doc.pandacode.cn)平台，主要从Java出发进行学习、探索、记录。
+[pandacode](https://pandacode.cn)对应[知识库](http://doc.pandacode.cn)平台，主要从Java出发进行学习、探索、记录。
 
 # 快速上手
 
