@@ -1,6 +1,6 @@
 <img width="180" src="https://cdn.jsdelivr.net/gh/guoshunfa/files/panda/202109101822245.png" alt="logo" data-canonical-src="https://cdn.jsdelivr.net/gh/guoshunfa/files/panda/202109101822245.png" style="max-width: 100%;">
 
-​                                                                                            ![star](https://img.shields.io/github/stars/guoshunfa/pandacode-doc) ![github](https://img.shields.io/github/forks/guoshunfa/pandacode-doc) 
+![star](https://img.shields.io/github/stars/guoshunfa/pandacode-doc) ![github](https://img.shields.io/github/forks/guoshunfa/pandacode-doc) 
 
 # pandacode.cn
 
