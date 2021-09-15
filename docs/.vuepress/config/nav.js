@@ -55,6 +55,10 @@ module.exports = [
     ]
   },
   {
+    text: "源码解读",
+    link: "/pages/04607b/"
+  },
+  {
     text: "算法",
     link: "/pages/algorithm/"
   },
