@@ -4,7 +4,7 @@
 
 # pandacode.cn
 
-- [效果：熊猫 code | doc](http://doc.pandacode.cn)
+- [效果：熊猫 code | doc](https://doc.pandacode.cn)
 
 # 介绍
 
