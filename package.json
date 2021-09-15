@@ -9,6 +9,7 @@
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "element-ui": "^2.15.6",
     "gray-matter": "^4.0.3",
+    "inquirer": "^7.1.0",
     "tracer": "^1.1.5",
     "vuepress": "^1.8.2",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
@@ -20,13 +21,15 @@
     "vuepress-plugin-mermaidjs": "^1.8.1",
     "vuepress-plugin-one-click-copy": "^1.0.5",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
-    "vuepress-theme-vdoing": "^1.8.3"
+    "vuepress-theme-vdoing": "^1.8.3",
+    "yamljs": "^0.3.0"
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs", 
+    "build": "vuepress build docs",
     "deploy": "sh deploy.sh",
-    "baiduPush": "node utils/baiduPush.js https://doc.pandacode.cn && sh baiduPush.sh"
+    "baiduPush": "node utils/baiduPush.js https://doc.pandacode.cn && sh baiduPush.sh",
+    "editFm": "node utils/editFrontmatter.js"
   },
   "dependencies": {
     "async-validator": "1.11.5",
