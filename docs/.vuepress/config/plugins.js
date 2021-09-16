@@ -92,7 +92,7 @@ module.exports = [
         recordIP: true,         // 记录评论者的IP
         enableQQ: true,   //是否启用昵称框自动获取QQ昵称和QQ头像, 默认关闭，需博/网站主主动启
         meta: ['nick', 'mail'], // 评论者相关属性。
-        requiredFields: ['nick'], // 设置必填项，默认匿名
+        requiredFields: ['nick', 'mail'], // 设置必填项，默认匿名
         visitor: true, // 文章访问量统计。
         // 设置Bilibili表情包地址
         emojiCDN: '//i0.hdslb.com/bfs/emote/',
