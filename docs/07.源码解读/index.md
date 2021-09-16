@@ -14,4 +14,4 @@ article: false # 不是文章页 (不显示面包屑栏、最近更新栏等)
 
 ## 在线阅读源码
 
-可以 [进入](https://sourcegraph.com/github.com/guoshunfa/sound-code/-/blob/README.md) 源码仓库进行阅读。
+可以 [进入](https://sourcegraph.com/github.com/guoshunfa/sound-code/-/blob/README.md) 源码仓库进行阅读源码。

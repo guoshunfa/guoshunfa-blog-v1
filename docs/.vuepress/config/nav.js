@@ -60,7 +60,7 @@ module.exports = [
   },
   {
     text: "算法",
-    link: "/pages/algorithm/"
+    link: "/pages/dafb87/"
   },
   {
     text: "数据库",
