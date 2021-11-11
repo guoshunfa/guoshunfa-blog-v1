@@ -28,6 +28,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "sh deploy.sh",
+    "deployPandas": "sh deploy-pandas.sh",
     "baiduPush": "node utils/baiduPush.js https://doc.pandacode.cn && sh baiduPush.sh",
     "editFm": "node utils/editFrontmatter.js"
   },
