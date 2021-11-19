@@ -14,15 +14,15 @@ features: # 可选的
   - title: Java
     details: Java 基础、Java集合框架、Java多线程与并发...
     link: /pages/380156/ # 可选
-    imgUrl: https://cdn.jsdelivr.net/gh/guoshunfa/files/panda/202109101822211.png # 可选
+    imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822211.png # 可选
   - title: Spring
     details: Spring、SpringBoot、SpringCloud
     link: /pages/d37802/ # 可选
-    imgUrl: https://cdn.jsdelivr.net/gh/guoshunfa/files/panda/202109101822005.png # 可选
+    imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822005.png # 可选
   - title: 算法
     details: 数据结构基础、常见排序算法、算法思想...
     link: /pages/a8e50a/
-    imgUrl: https://cdn.jsdelivr.net/gh/guoshunfa/files/logo/skill_logo/202109101827326.png
+    imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//logo/skill_logo/202109101827326.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed

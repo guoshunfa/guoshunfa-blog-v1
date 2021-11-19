@@ -2,7 +2,7 @@
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   ['link',
-    { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/guoshunfa/files/panda/202109101822245.png' }], //favicons，资源放在public文件夹
+    { rel: 'icon', href: 'https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822245.png' }], //favicons，资源放在public文件夹
   [
     'meta',
     {
