@@ -28,9 +28,6 @@ yarn dev
 
 # 其他操作
 ```shell
-# 打包发布到Github Pages
-yarn deploy
-
 # 将网站内容推送至baidu
 yarn baiduPush
 ```
