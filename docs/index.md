@@ -43,7 +43,6 @@ article: false
 
 为开发者提供的万能知识库。
 
-
 ## 🌹 个人服务链接
 
 - [熊猫代码文档记录平台（当前平台）](https://pandacode.cn/)
@@ -61,4 +60,14 @@ article: false
 
 ## 📖 大纲
 
-<iframe :src="$withBase('/markmap/outline.html')" width="100%" height="400" frameborder="0" scrolling="No" leftmargin="0" topmargin="0"></iframe>
+```mermaid
+graph LR
+熊猫code知识库-->Java
+Java-->撇,估计,均值,向量等写于符号上下的标记
+click Java "/pages/380156/"
+熊猫code知识库--> 分隔符_Delimiters
+分隔符_Delimiters-->小中大括号,竖杠,绝对值等分隔符的反斜杠写法
+熊猫code知识库--> 公式组_Enviroments
+公式组_Enviroments-->B(.....)
+熊猫code知识库-->C(...)
+```
