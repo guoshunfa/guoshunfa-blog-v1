@@ -14,22 +14,22 @@ module.exports = [
     {
       thirdparty: [
         // 可选，默认 []
-        {
-          title: '在magi中搜索',
-          frontUrl: 'https://magi.com/search?q=',
-        },
+        // {
+        //   title: '在magi中搜索',
+        //   frontUrl: 'https://magi.com/search?q=',
+        // },
         {
           title: '在Bing中搜索',
           frontUrl: 'https://cn.bing.com/search?q=',
         },
         {
-          title: '在Github中搜索',
-          frontUrl: 'https://github.com/search?q=',
+          title: '在Gitee中搜索',
+          frontUrl: 'https://gitee.com/search?q=',
         },
-        {
-          title: '查找源码',
-          frontUrl: 'http://coderead.pandacode.cn:82/search?searchall=true&defs=',
-        },
+        // {
+        //   title: '查找源码',
+        //   frontUrl: 'http://coderead.pandacode.cn:82/search?searchall=true&defs=',
+        // },
       ],
     },
   ],
@@ -67,12 +67,12 @@ module.exports = [
       },
     },
   ],
-  [
-    'vuepress-plugin-baidu-tongji', // 百度统计
-    {
-      hm: '503f098e7e5b3a5b5d8c5fc2938af002',
-    },
-  ],
+  // [
+  //   'vuepress-plugin-baidu-tongji', // 百度统计
+  //   {
+  //     hm: '503f098e7e5b3a5b5d8c5fc2938af002',
+  //   },
+  // ],
   // https://valine.js.org/ valine官网
   // https://console.leancloud.cn/ 云数据库地址
   // 

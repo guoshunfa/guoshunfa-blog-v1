@@ -27,7 +27,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "baiduPush": "node utils/baiduPush.js https://doc.pandacode.cn && sh baiduPush.sh",
+    "baiduPush": "node utils/baiduPush.js https://pandacode.cn && sh sh/baiduPush.sh",
     "editFm": "node utils/editFrontmatter.js"
   },
   "dependencies": {
