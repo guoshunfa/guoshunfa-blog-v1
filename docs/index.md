@@ -61,7 +61,7 @@ article: false
 ## 📖 大纲
 
 ```mermaid
-graph LR
+graph TB
 熊猫code知识库-->Java
 熊猫code知识库-->Spring
 熊猫code知识库-->算法
