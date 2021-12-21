@@ -59,12 +59,12 @@ module.exports = [
         text: "Spring",
         items: [
           {
-            text: "Spring 资料记录",
-            link: "/pages/d37802/"
+            text: "Spring Event",
+            link: "/pages/8eecf9/"
           },
           {
-            text: "Spring AOP",
-            link: "/pages/63cba4/"
+            text: "Spring 事务",
+            link: "/pages/6d5a00/"
           },
         ]
       },
@@ -81,46 +81,6 @@ module.exports = [
           },
         ]
       },
-      {
-        text: "SpringBoot 进阶",
-        items: [
-          {
-            text: "SpringBoot - Java注解",
-            link: "/pages/e74bae/"
-          },
-        ]
-      },
-      // {
-      //   text: "SpringCloud",
-      // },
-    ]
-  },
-  {
-    text: "算法",
-    items: [
-      // {
-      //   text: "数据结构基础"
-      // },
-      {
-        text: "常见排序算法",
-        items: [
-          {
-            text: "排序 - 冒泡排序",
-            link: "/pages/a8e50a/"
-          },
-          {
-            text: "排序 - 快速排序",
-            link: "/pages/a4a8df/"
-          },
-          {
-            text: "排序 - 选择排序",
-            link: "/pages/ecdf9f/"
-          },
-        ]
-      },
-      // {
-      //   text: "算法思想"
-      // },
     ]
   },
   {
@@ -133,22 +93,6 @@ module.exports = [
             text: "Mysql",
             link: "/pages/d51cca/",
           },
-          {
-            text: "Oracle",
-            link: "/pages/2e2a3e/",
-          },
-          {
-            text: "SqlServer",
-            link: "/pages/7e0d00/",
-          },
-          {
-            text: "Openguass",
-            link: "/pages/f13a40/",
-          },
-          {
-            text: "Postgrep",
-            link: "/pages/8365cc/",
-          },
         ],
       },
       {
@@ -157,10 +101,6 @@ module.exports = [
           {
             text: "MongoDB",
             link: "/pages/b58ac5/",
-          },
-          {
-            text: "Elasticsearch",
-            link: "/pages/9323a9/",
           },
           {
             text: "Redis",
@@ -177,16 +117,8 @@ module.exports = [
         text: "服务器",
         items: [
           {
-            text: "Linux 基础知识",
-            link: "/pages/df0930/",
-          },
-          {
-            text: "Linux 命令大全",
-            link: "/pages/f667de/",
-          },
-          {
-            text: "域名管理",
-            link: "/pages/94ed7c/",
+            text: "树莓派 资料记录",
+            link: "/pages/fc21a3/",
           },
         ]
       },
@@ -215,10 +147,6 @@ module.exports = [
             link: "/pages/df00c4/",
           },
           {
-            text: "Weblogic",
-            link: "/pages/303113/",
-          },
-          {
             text: "Kafka",
             link: "/pages/ae56b2/",
           },
@@ -239,74 +167,23 @@ module.exports = [
   {
     text: "前端",
     items: [
-      // {
-      //   text: "前端基础",
-      //   items: [
-      //     {
-      //       text: "JS",
-      //     },
-      //     {
-      //       text: "CSS",
-      //     },
-      //     {
-      //       text: "HTML",
-      //     },
-      //     {
-      //       text: "TS",
-      //     },
-      //   ]
-      // },
       {
         text: "前端框架",
         items: [
-          // {
-          //   text: "Vue.js",
-          // },
+          {
+            text: "Vue.js",
+            link: "/pages/d3c7b9/",
+          },
           {
             text: "Vuepress",
             link: "/pages/cc7cb6/",
           },
-          // {
-          //   text: "uni-app",
-          // },
+          {
+            text: "Electron",
+            link: "/pages/b34375/",
+          },
         ]
       },
-      // {
-      //   text: "yyds",
-      //   items: [
-      //     {
-      //       text: "Node.js",
-      //     },
-      //   ]
-      // },
-      // {
-      //   text: "组件库",
-      //   items: [
-      //     {
-      //       text: "element-ui",
-      //     },
-      //     {
-      //       text: "uview",
-      //     },
-      //   ]
-      // },
-      // {
-      //   text: "插件库",
-      //   items: [
-      //     {
-      //       text: "lodash.js",
-      //     },
-      //     {
-      //       text: "moment.js",
-      //     },
-      //     {
-      //       text: "day.js",
-      //     },
-      //     {
-      //       text: "swiper.js",
-      //     },
-      //   ]
-      // },
     ]
   },
   {
@@ -325,22 +202,6 @@ module.exports = [
   {
     text: "Python",
     items: [
-      {
-        text: "Python 基础",
-        items: [
-          {
-            text: "Python 基础 - 数据类型",
-            link: "/pages/f6422d/",
-          },
-          {
-            text: "Python 基础 - 相关知识",
-            link: "/pages/e88894/",
-          },
-        ]
-      },
-      // {
-      //   text: "Python 制作脚本",
-      // },
       {
         text: "Python ui自动化测试",
         items: [
@@ -377,7 +238,7 @@ module.exports = [
       },
       {
         text: "流媒体",
-        link: "/pages/55e0dd/",
+        link: "/pages/1c2857/",
       }
     ]
   },
@@ -385,16 +246,15 @@ module.exports = [
     text: "开发工具箱",
     link: "/pages/35add9/",
   },
-  // { text: '随笔', link: '/categories/?category=随笔' },
-  // {
-  //   text: '索引',
-  //   link: '/archives/',
-  //   items: [
-  //     { text: '分类', link: '/categories/' },
-  //     { text: '标签', link: '/tags/' },
-  //     { text: '归档', link: '/archives/' },
-  //   ],
-  // },
+  {
+    text: '索引',
+    link: '/archives/',
+    items: [
+      { text: '分类', link: '/categories/' },
+      { text: '标签', link: '/tags/' },
+      { text: '归档', link: '/archives/' },
+    ],
+  },
   { text: '留言板', link: '/pages/message/' },
   {
     text: '关于',
