@@ -6,8 +6,8 @@ tagline: 昨天是历史，明天是谜团，只有今天是天赐的礼物。
 # 你的思想就如同水，我的朋友，当水波摇曳时，很难看清，不过当它平静下来，答案就清澈见底了。
 # 从来没有什么意外。
 
-# actionText: 立刻进入 →
-# actionLink: /web/
+# actionText: 立即开始 →
+# actionLink: /pages/380156/
 bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
@@ -16,13 +16,13 @@ features: # 可选的
     link: /pages/380156/ # 可选
     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822211.png # 可选
   - title: Spring
-    details: Spring、SpringBoot、SpringCloud
+    details: Spring、SpringBoot基础、SpringBoot集成各服务...
     link: /pages/d37802/ # 可选
     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822005.png # 可选
-  - title: 算法
-    details: 数据结构基础、常见排序算法、算法思想...
-    link: /pages/a8e50a/
-    imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//logo/skill_logo/202109101827326.png
+  - title: 部署
+    details: Docker、脚本、各服务运维...
+    link: /pages/d37802/ # 可选
+    imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822073.png # 可选
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: simple
@@ -46,9 +46,9 @@ article: false
 ## 🌹 个人服务链接
 
 - [熊猫代码文档记录平台（当前平台）](https://pandacode.cn/)
-- [源码在线浏览平台（正在不断引入源码）](http://coderead.pandacode.cn:82/)
-- [文件下载平台（尚未完善）](http://file.download.pandacode.cn:81/)
-- [文件在线管理平台（尚未完善）](http://file2.pandacode.cn:81/)
+- ~~[源码在线浏览平台（正在不断引入源码）](http://coderead.pandacode.cn:82/)~~
+- ~~[文件下载平台（尚未完善）](http://file.download.pandacode.cn:81/)~~
+- ~~[文件在线管理平台（尚未完善）](http://file2.pandacode.cn:81/)~~
 - [微信公众号 Markdown 编辑器](https://wechat.pandacode.cn/)
 
 ## 📮 联系

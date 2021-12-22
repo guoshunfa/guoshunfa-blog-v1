@@ -21,10 +21,12 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
     categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
+    // https://zyj_yida.gitee.io/pic/
     bodyBgImg: [
-        // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-        // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
-        // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg',
+        'https://zyj_yida.gitee.io/source/img/indexbg/53.jpg',
+        'https://zyj_yida.gitee.io/source/img/indexbg/54.jpg',
+        'https://zyj_yida.gitee.io/source/img/indexbg/41.jpg',
+        'https://zyj_yida.gitee.io/source/img/indexbg/39.jpg',
     ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 0.1, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
@@ -57,7 +59,6 @@ module.exports = {
     },
     blogger: {
         // 博主信息，显示在首页侧边栏
-        // avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
         avatar: 'https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822562.png',
         name: '熊猫 🐼',
         slogan: 'up up up',

@@ -24,10 +24,6 @@ module.exports = [
         text: "Java 集合框架",
         items: [
           {
-            text: "Collection 类关系图",
-            link: "/pages/362762/"
-          },
-          {
             text: "Collection - ArrayList 源码解读",
             link: "/pages/44875a/"
           },
