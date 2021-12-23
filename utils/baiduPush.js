@@ -28,7 +28,7 @@ function main() {
 
     if (data.permalink) {
       const link = `\r\n${DOMAIN}${data.permalink}`;
-      // console.log(link)
+      console.log(link)
       fs.appendFileSync(urlsRoot, link);
     }
   })

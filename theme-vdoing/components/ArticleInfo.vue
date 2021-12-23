@@ -105,16 +105,16 @@
             >{{ item + " " }}</router-link
           >
         </div>
-        <div>
-          <span
-            :id="getRouterPath()"
-            class="leancloud_visitors"
-            :data-flag-title="getRouterPath()"
-          >
-            <em class="post-meta-item-text">访问次数: </em>
-            <i class="leancloud-visitors-count">1000000</i>
-          </span>
-        </div>
+<!--        <div>-->
+<!--          <span-->
+<!--            :id="getRouterPath()"-->
+<!--            class="leancloud_visitors"-->
+<!--            :data-flag-title="getRouterPath()"-->
+<!--          >-->
+<!--            <em class="post-meta-item-text">访问次数: </em>-->
+<!--            <i class="leancloud-visitors-count">1000000</i>-->
+<!--          </span>-->
+<!--        </div>-->
       </div>
     </div>
   </div>
