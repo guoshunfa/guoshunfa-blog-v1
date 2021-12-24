@@ -49,7 +49,7 @@ module.exports = [
     ]
   },
   {
-    text: "Spring",
+    text: "Java 相关框架",
     items: [
       {
         text: "Spring",
@@ -74,6 +74,19 @@ module.exports = [
           {
             text: "SpringBoot - Mybatis",
             link: "/pages/441aee/"
+          },
+        ]
+      },
+      {
+        text: "Maven",
+        items: [
+          {
+            text: "Maven setting 详解",
+            link: "/pages/65f1e8/"
+          },
+          {
+            text: "Nexus maven 私服配置",
+            link: "/pages/c03191/"
           },
         ]
       },
