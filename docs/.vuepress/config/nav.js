@@ -71,10 +71,6 @@ module.exports = [
             text: "SpringBoot - 基础知识",
             link: "/pages/d30647/"
           },
-          {
-            text: "SpringBoot - Mybatis",
-            link: "/pages/441aee/"
-          },
         ]
       },
       {
