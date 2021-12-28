@@ -70,7 +70,7 @@ module.exports = {
 `,
     windowRB:
         `<!-- 固定160*160px -->
-<img src="https://gitee.com/guoshunfa/panda-files/raw/master/blog/20211223101530.png" style="width: 100%;height: 100%"  />
+<img src="https://img1.baidu.com/it/u=3614241337,2414423010&fm=253&fmt=auto&app=120&f=JPEG?w=667&h=500" style="width: 100%;height: 100%"  />
       `,
 }
 

@@ -15,13 +15,13 @@ features: # 可选的
     details: Java 基础、Java集合框架、Java多线程与并发...
     link: /pages/380156/ # 可选
     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822211.png # 可选
-  - title: Spring
-    details: Spring、SpringBoot基础、SpringBoot集成各服务...
-    link: /pages/d37802/ # 可选
+  - title: Java 相关框架和组件
+    details: Spring、SpringBoot、Maven、Java 相关组件...
+    link: /pages/65f1e8/ # 可选
     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822005.png # 可选
   - title: 部署
-    details: Docker、脚本、各服务运维...
-    link: /pages/d37802/ # 可选
+    details: Docker、脚本、版本管理、各服务运维...
+    link: /pages/9785e2/ # 可选
     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822073.png # 可选
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
