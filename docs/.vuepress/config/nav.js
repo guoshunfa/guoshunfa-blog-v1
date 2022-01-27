@@ -62,6 +62,15 @@ module.exports = [
     ]
   },
   {
+    text: "算法",
+    items: [
+      {
+        text: "Leetcode 攻克算法题",
+        link: "/pages/c986bc/",
+      }
+    ]
+  },
+  {
     text: "运维",
     items: [
       {
