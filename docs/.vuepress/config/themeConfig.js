@@ -23,10 +23,6 @@ module.exports = {
 
     // https://zyj_yida.gitee.io/pic/
     bodyBgImg: [
-        'https://zyj_yida.gitee.io/source/img/indexbg/53.jpg',
-        'https://zyj_yida.gitee.io/source/img/indexbg/54.jpg',
-        'https://zyj_yida.gitee.io/source/img/indexbg/41.jpg',
-        'https://zyj_yida.gitee.io/source/img/indexbg/39.jpg',
     ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 0.2, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 

@@ -12,4 +12,8 @@ module.exports = [
   ],
   ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }],
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js' }],
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }],
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js' }],
 ]

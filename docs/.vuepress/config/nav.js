@@ -24,12 +24,16 @@ module.exports = [
         text: "前端",
         items: [
           {
-            text: "Vue.js",
+            text: "Vue",
             link: "/pages/d3c7b9/",
           },
           {
             text: "Vuepress",
             link: "/pages/cc7cb6/",
+          },
+          {
+            text: "React",
+            link: "/pages/da7af9/",
           },
           {
             text: "Electron",

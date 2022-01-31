@@ -119,5 +119,7 @@ module.exports = [
   // 流程图 API：https://mermaid-js.github.io/mermaid/#/README
   [
     'vuepress-plugin-mermaidjs'
-  ]
+  ],
+  // https://github.com/xiguaxigua/vuepress-plugin-demo-block
+  'demo-block'
 ]
