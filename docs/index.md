@@ -31,18 +31,101 @@ simplePostListLength: 0 # 简约版文章列表显示的文章数量，默认10�
 article: false
 ---
 ## 👀 快捷通道
+**常用在线工具：**
+::: cardList 4
+```yaml
+- name: JSON格式化
+  desc: ""
+  link: https://www.bejson.com/jsonviewernew/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: 时间戳转换
+  desc: ""
+  link: http://tool.chinaz.com/tools/unixtime.aspx
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: codepen
+  desc: ""
+  link: https://codepen.io/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: BootCDN
+  desc: ""
+  link: https://www.bootcdn.cn
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+```
+:::
+**Web API：**
+::: cardList 4
+```yaml
+- name: MDN
+  desc: ""
+  link: https://developer.mozilla.org/zh-CN/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: React
+  desc: ""
+  link: https://zh-hans.reactjs.org
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: JDK1.8
+  desc: ""
+  link: https://docs.oracle.com/javase/8/docs/api/?xd_co_f=47c934d9-e663-4eba-819c-b726fc2d0847
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: MongoDB
+  desc: ""
+  link: https://docs.mongodb.com/manual/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: Vuepress
+  desc: ""
+  link: https://vuepress.vuejs.org/zh/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: Vdoing
+  desc: ""
+  link: https://doc.xugaoyi.com/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+```
+:::
+**运维管理平台：**
 
-[Github](https://github.com/) | [掘金](https://juejin.im/) | [简书](https://www.jianshu.com/) | [思否](https://segmentfault.com/) | [鱼塘热榜](https://mo.fish/main/home/hot) | [力扣](https://leetcode-cn.com/)
-
-[JSON格式化](https://www.bejson.com/jsonviewernew/) | [时间戳转换](http://tool.chinaz.com/tools/unixtime.aspx) | [正则可视化](https://regex101.com/) | [反编译 Jar](http://www.decompiler.com) | [反编译 Class](http://javare.cn/De)
-
-[jdk1.8](https://docs.oracle.com/javase/8/docs/api/?xd_co_f=47c934d9-e663-4eba-819c-b726fc2d0847) | [MongoDB](https://docs.mongodb.com/manual/) | [hutool](https://hutool.cn/) | [vuepress-theme-vdoing](https://doc.xugaoyi.com/) | [vuepress](https://vuepress.vuejs.org/zh/)
-
-[dnspod域名控制台](https://console.dnspod.cn) | [腾讯云控制台](https://console.cloud.tencent.com/) | [阿里云控制台](https://homenew.console.aliyun.com/) | [微信公众号控制台](https://mp.weixin.qq.com/) | [百度站长平台](https://ziyuan.baidu.com/)
+::: cardList 4
+```yaml
+- name: dnspod域名控制台
+  desc: ""
+  link: https://console.dnspod.cn
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: 腾讯云控制台
+  desc: ""
+  link: https://console.cloud.tencent.com/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: 阿里云控制台
+  desc: ""
+  link: https://homenew.console.aliyun.com/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: 微信公众号控制台
+  desc: ""
+  link: https://mp.weixin.qq.com/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: 百度站长平台
+  desc: ""
+  link: https://ziyuan.baidu.com/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+```
+:::
 
 ## 🌲 平台介绍
 
-为开发者提供的万能知识库。
+本平台是一个对语言、组件、服务进行总结记录的指导手册，所有文章都会以介绍、使用、常见问题等维度进行总结记录，并且会不间断的优化更新文章内容，以达到可以满足大部分需求。
 
 ## 🌹 个人服务链接
 

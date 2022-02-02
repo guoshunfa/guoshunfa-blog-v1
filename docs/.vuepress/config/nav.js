@@ -15,7 +15,7 @@ module.exports = [
             link: "/pages/380156/"
           },
           {
-            text: "Java 相关框架",
+            text: "Java 框架",
             link: "/pages/8eecf9/"
           },
         ]
@@ -24,20 +24,12 @@ module.exports = [
         text: "前端",
         items: [
           {
-            text: "Vue",
-            link: "/pages/d3c7b9/",
+            text: "前端 基础",
+            link: "/pages/265807/",
           },
           {
-            text: "Vuepress",
-            link: "/pages/cc7cb6/",
-          },
-          {
-            text: "React",
-            link: "/pages/da7af9/",
-          },
-          {
-            text: "Electron",
-            link: "/pages/b34375/",
+            text: "前端 框架",
+            link: "/pages/18b34b/",
           },
         ]
       },
@@ -45,11 +37,11 @@ module.exports = [
         text: "测试",
         items: [
           {
-            text: "测试基础",
+            text: "测试 基础",
             link: "/pages/0f55d1/",
           },
           {
-            text: "测试框架",
+            text: "测试 框架",
             link: "/pages/be1737/",
           }
         ]
@@ -70,7 +62,7 @@ module.exports = [
     items: [
       {
         text: "Leetcode 攻克算法题",
-        link: "/pages/c986bc/",
+        link: "/pages/57109c/",
       }
     ]
   },
