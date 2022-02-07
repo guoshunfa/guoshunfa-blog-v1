@@ -16,8 +16,8 @@ features: # 可选的
     link: /pages/380156/ # 可选
     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822211.png # 可选
   - title: 开发 - 前端
-    details: HTML、JS、ES、TS等前端基础，Vuejs、Reactjs等前端主流框架...
-    link: /pages/65f1e8/ # 可选
+    details: 前端基础、Vuejs、Reactjs等前端主流框架...
+    link: /pages/18b34b/ # 可选
     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822005.png # 可选
   - title: 部署
     details: 各服务器操作、Docker、脚本编写、代码版本管理、各服务运维...
@@ -56,8 +56,9 @@ article: false
   textColor: '#2A3344'
 ```
 :::
-**Web API：**
+**API：**
 ::: cardList 4
+
 ```yaml
 - name: MDN
   desc: ""
@@ -67,6 +68,11 @@ article: false
 - name: React
   desc: ""
   link: https://zh-hans.reactjs.org
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: React Router
+  desc: ""
+  link: https://reactrouter.com
   bgColor: '#DFEEE7'
   textColor: '#2A3344'
 - name: JDK1.8
@@ -125,15 +131,7 @@ article: false
 
 ## 🌲 平台介绍
 
-本平台是一个对语言、组件、服务进行总结记录的指导手册，所有文章都会以介绍、使用、常见问题等维度进行总结记录，并且会不间断的优化更新文章内容，以达到可以满足大部分需求。
-
-## 🌹 个人服务链接
-
-- [熊猫代码文档记录平台（当前平台）](https://pandacode.cn/)
-- ~~[源码在线浏览平台（正在不断引入源码）](http://coderead.pandacode.cn:82/)~~
-- ~~[文件下载平台（尚未完善）](http://file.download.pandacode.cn:81/)~~
-- ~~[文件在线管理平台（尚未完善）](http://file2.pandacode.cn:81/)~~
-- [微信公众号 Markdown 编辑器](https://wechat.pandacode.cn/)
+熊猫 code 笔记整理。
 
 ## 📮 联系
 
@@ -146,78 +144,53 @@ article: false
 
 ```mermaid
 graph TB
-熊猫code知识库-->Java
-熊猫code知识库-->Spring
-熊猫code知识库-->算法
-熊猫code知识库-->数据库
-熊猫code知识库-->部署
-熊猫code知识库-->前端
-熊猫code知识库-->测试
-熊猫code知识库-->Python
 
-Java-->Java基础
-Java-->Java集合框架
-Java-->Java多线程与并发
-Java-->JavaIO:NIO:AIO
-Java-->Java各版本特征
-Java-->JVM相关
+开发-->Java
+开发-->前端
+开发-->测试
+开发-->Python
 
-Spring-->Spring_
-Spring-->SpringBoot
-Spring-->SpringCloud
+Java-->Java核心技术
+Java-->Java框架和组件
 
-算法-->常见排序算法
+前端-->前端核心技术
+前端-->前端框架和组件
 
-数据库-->SQL数据库
-数据库-->NOSQL数据库
-数据库-->数据库通用理论
+测试-->测试核心技术
+测试-->测试框架和组件
 
-SQL数据库-->Mysql
-SQL数据库-->Oracle
-SQL数据库-->SqlServer
-NOSQL数据库-->MongoDB
-NOSQL数据库-->Elasticsearch
-NOSQL数据库-->Redis
+Python-->Python使用
 
-部署-->服务器
-部署-->Docker
-部署-->服务
-部署-->版本控制
-部署-->脚本
-
-前端-->前端基础
-前端-->前端框架
-前端-->组件库
-
-前端基础-->JS
-前端框架-->Vue
-前端框架-->VuePress
-前端框架-->Electron
-
-测试-->测试基础
-测试-->测试框架
-
-Python-->Python基础
-Python-->Python制作脚本
-Python-->Python成熟工具包
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 click Java "/pages/380156/"
+click Java核心技术 "/pages/380156/"
+click Java框架和组件 "/pages/8eecf9/"
+click 前端 "/pages/265807/"
+click 前端核心技术 "/pages/265807/"
+click 前端框架和组件 "/pages/18b34b/"
+click 测试 "/pages/0f55d1/"
+click 测试核心技术 "/pages/0f55d1/"
+click 测试框架和组件 "/pages/be1737/"
+
+```
+
+
+```mermaid
+graph TB
+
+算法-->Leetcode攻克算法题
+
+click 算法 "/pages/57109c/"
+click Leetcode攻克算法题 "/pages/57109c/"
+```
+
+
+```mermaid
+graph TB
+
+运维-->数据库
+运维-->部署
+ 
+click 运维 "/pages/b58ac5/"
+click 数据库 "/pages/b58ac5/"
+click 部署 "/pages/fc21a3/"
 ```

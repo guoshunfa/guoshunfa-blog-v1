@@ -5,17 +5,17 @@ module.exports = [
     link: "/",
   },
   {
-    text: "🌹 开发",
+    text: " 开发",
     items: [
       {
         text: "Java",
         items: [
           {
-            text: "Java 基础",
+            text: "Java 核心技术",
             link: "/pages/380156/"
           },
           {
-            text: "Java 框架",
+            text: "Java 框架和组件",
             link: "/pages/8eecf9/"
           },
         ]
@@ -24,11 +24,11 @@ module.exports = [
         text: "前端",
         items: [
           {
-            text: "前端 基础",
+            text: "前端 核心技术",
             link: "/pages/265807/",
           },
           {
-            text: "前端 框架",
+            text: "前端 框架和组件",
             link: "/pages/18b34b/",
           },
         ]
@@ -37,11 +37,11 @@ module.exports = [
         text: "测试",
         items: [
           {
-            text: "测试 基础",
+            text: "测试 核心技术",
             link: "/pages/0f55d1/",
           },
           {
-            text: "测试 框架",
+            text: "测试 框架和组件",
             link: "/pages/be1737/",
           }
         ]
@@ -71,64 +71,17 @@ module.exports = [
     items: [
       {
         text: "数据库",
-        items: [
-          {
-            text: "Mysql",
-            link: "/pages/d51cca/",
-          },
-          {
-            text: "MongoDB",
-            link: "/pages/b58ac5/",
-          },
-          {
-            text: "Redis",
-            link: "/pages/3ae5e3/",
-          },
-        ],
+        link: "/pages/b58ac5/",
       },
       {
         text: "部署",
-        items: [
-          {
-            text: "服务器",
-            link: "/pages/fc21a3/",
-          },
-          {
-            text: "Docker",
-            link: "/pages/b54954/",
-          },
-          {
-            text: "服务",
-            link: "/pages/9785e2/",
-          },
-        ],
+        link: "/pages/fc21a3/",
       },
     ]
   },
   {
     text: "其他",
-    items: [
-      {
-        text: "Opengrok代码阅读工具",
-        link: "/pages/895cb6/",
-      },
-      {
-        text: "Fiddler抓包工具",
-        link: "/pages/9483ed/",
-      },
-      {
-        text: "Java Decompiler反编译工具",
-        link: "/pages/ac1271/",
-      },
-      {
-        text: "Markdown语法",
-        link: "/pages/5a80d5/",
-      },
-      {
-        text: "流媒体",
-        link: "/pages/1c2857/",
-      }
-    ]
+    link: "/pages/895cb6/",
   },
   {
     text: "开发工具箱",
@@ -144,11 +97,5 @@ module.exports = [
     ],
   },
   { text: '留言板', link: '/pages/message/' },
-  {
-    text: '关于',
-    items: [
-      { text: '关于我', link: '/pages/38db8f/' },
-      { text: '友链', link: '/pages/dc96ef/' },
-    ],
-  },
+  { text: '友链', link: '/pages/dc96ef/' },
 ]
