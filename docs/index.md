@@ -60,39 +60,49 @@ article: false
 ::: cardList 4
 
 ```yaml
+- name: Java
+  desc: ""
+  link: https://docs.oracle.com/en/java/javase/index.html
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: Spring
+  desc: ""
+  link: https://spring.io/projects
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
 - name: MDN
   desc: ""
-  link: https://developer.mozilla.org/zh-CN/
+  link: https://developer.mozilla.org/zh-CN/docs/Web
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: runoob
+  desc: ""
+  link: https://www.runoob.com
   bgColor: '#DFEEE7'
   textColor: '#2A3344'
 - name: React
   desc: ""
-  link: https://zh-hans.reactjs.org
+  link: https://zh-hans.reactjs.org/docs/getting-started.html
   bgColor: '#DFEEE7'
   textColor: '#2A3344'
 - name: React Router
   desc: ""
-  link: https://reactrouter.com
-  bgColor: '#DFEEE7'
-  textColor: '#2A3344'
-- name: JDK1.8
-  desc: ""
-  link: https://docs.oracle.com/javase/8/docs/api/?xd_co_f=47c934d9-e663-4eba-819c-b726fc2d0847
+  link: https://reactrouter.com/docs/en/v6
   bgColor: '#DFEEE7'
   textColor: '#2A3344'
 - name: MongoDB
   desc: ""
-  link: https://docs.mongodb.com/manual/
+  link: https://docs.mongodb.com
   bgColor: '#DFEEE7'
   textColor: '#2A3344'
 - name: Vuepress
   desc: ""
-  link: https://vuepress.vuejs.org/zh/
+  link: https://vuepress.vuejs.org/zh/guide/
   bgColor: '#DFEEE7'
   textColor: '#2A3344'
 - name: Vdoing
   desc: ""
-  link: https://doc.xugaoyi.com/
+  link: https://doc.xugaoyi.com/pages/793dcb/
   bgColor: '#DFEEE7'
   textColor: '#2A3344'
 ```
