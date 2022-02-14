@@ -80,8 +80,8 @@ module.exports = [
     ]
   },
   {
-    text: "其他",
-    link: "/pages/895cb6/",
+    text: "自媒体",
+    link: "/pages/6828ab/",
   },
   {
     text: "开发工具箱",
