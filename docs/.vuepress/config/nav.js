@@ -5,10 +5,10 @@ module.exports = [
     link: "/",
   },
   {
-    text: " 开发",
+    text: "软件服务",
     items: [
       {
-        text: "Java",
+        text: "Java 语言",
         items: [
           {
             text: "Java 核心技术",
@@ -21,7 +21,16 @@ module.exports = [
         ]
       },
       {
-        text: "前端",
+        text: "软件算法",
+        items: [
+          {
+            text: "Leetcode 攻克算法题",
+            link: "/pages/57109c/",
+          }
+        ]
+      },
+      {
+        text: "软件服务前端开发",
         items: [
           {
             text: "前端 核心技术",
@@ -34,7 +43,7 @@ module.exports = [
         ]
       },
       {
-        text: "测试",
+        text: "软件服务测试",
         items: [
           {
             text: "测试 核心技术",
@@ -47,7 +56,7 @@ module.exports = [
         ]
       },
       {
-        text: "Python",
+        text: "Python 语言",
         items: [
           {
             text: "Python 使用",
@@ -55,27 +64,18 @@ module.exports = [
           },
         ]
       },
-    ]
-  },
-  {
-    text: "算法",
-    items: [
       {
-        text: "Leetcode 攻克算法题",
-        link: "/pages/57109c/",
-      }
-    ]
-  },
-  {
-    text: "运维",
-    items: [
-      {
-        text: "数据库",
-        link: "/pages/b58ac5/",
-      },
-      {
-        text: "部署",
-        link: "/pages/fc21a3/",
+        text: "软件服务运维",
+        items: [
+          {
+            text: "数据库",
+            link: "/pages/b58ac5/",
+          },
+          {
+            text: "部署",
+            link: "/pages/fc21a3/",
+          },
+        ]
       },
     ]
   },
@@ -98,4 +98,10 @@ module.exports = [
   },
   { text: '留言板', link: '/pages/message/' },
   { text: '友链', link: '/pages/dc96ef/' },
+  {
+    text: '个人服务(永久免费)',
+    items: [
+      { text: '微信公众号文章在线编辑', link: 'http://wechat.pandacode.cn' },
+    ],
+  },
 ]
