@@ -84,20 +84,21 @@ module.exports = [
     link: "/pages/6828ab/",
   },
   {
+    text: "书中自有颜如玉",
+    link: "/pages/1ba03b/",
+  },
+  {
     text: "开发工具箱",
     link: "/pages/35add9/",
   },
   {
     text: '索引',
-    link: '/archives/',
     items: [
       { text: '分类', link: '/categories/' },
       { text: '标签', link: '/tags/' },
       { text: '归档', link: '/archives/' },
     ],
   },
-  { text: '留言板', link: '/pages/message/' },
-  { text: '友链', link: '/pages/dc96ef/' },
   {
     text: '个人服务(永久免费)',
     items: [
