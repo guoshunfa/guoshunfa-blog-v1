@@ -21,14 +21,13 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
     categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
-    bodyBgImg: "https://gitee.com/guoshunfa/panda-files/raw/master/blog/202202032349867.png", // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
+    bodyBgImg: "", // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 1, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
     titleBadge: true, // 文章标题前的图标是否显示，默认true
     titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
         'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829762.png',
         'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829730.png',
-        'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829693.png',
         'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829641.png',
         'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829616.png',
         'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829575.png',
