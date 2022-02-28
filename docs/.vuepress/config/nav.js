@@ -81,7 +81,7 @@ module.exports = [
   },
   {
     text: "自媒体",
-    link: "/pages/6828ab/",
+    link: "/pages/d9e62a/",
   },
   {
     text: "书中自有颜如玉",
