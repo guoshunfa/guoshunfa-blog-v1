@@ -8,7 +8,7 @@ module.exports = [
     text: "软件服务",
     items: [
       {
-        text: "Java 语言",
+        text: "软件开发",
         items: [
           {
             text: "Java 核心技术",
@@ -18,20 +18,10 @@ module.exports = [
             text: "Java 框架和组件",
             link: "/pages/8eecf9/"
           },
-        ]
-      },
-      {
-        text: "软件算法",
-        items: [
           {
-            text: "Leetcode 攻克算法题",
-            link: "/pages/57109c/",
-          }
-        ]
-      },
-      {
-        text: "软件服务前端开发",
-        items: [
+            text: "Python 日常使用",
+            link: "/pages/8e98a2/",
+          },
           {
             text: "前端 核心技术",
             link: "/pages/265807/",
@@ -43,7 +33,7 @@ module.exports = [
         ]
       },
       {
-        text: "软件服务测试",
+        text: "软件测试",
         items: [
           {
             text: "测试 核心技术",
@@ -56,25 +46,25 @@ module.exports = [
         ]
       },
       {
-        text: "Python 语言",
+        text: "软件运维",
         items: [
           {
-            text: "Python 使用",
-            link: "/pages/8e98a2/",
+            text: "服务器运维",
+            link: "/pages/fc21a3/",
+          },
+          {
+            text: "组件服务运维",
+            link: "/pages/b58ac5/",
           },
         ]
       },
       {
-        text: "软件服务运维",
+        text: "软件算法",
         items: [
           {
-            text: "数据库",
-            link: "/pages/b58ac5/",
-          },
-          {
-            text: "部署",
-            link: "/pages/fc21a3/",
-          },
+            text: "Leetcode 攻克算法题",
+            link: "/pages/57109c/",
+          }
         ]
       },
     ]
@@ -90,14 +80,6 @@ module.exports = [
   {
     text: "开发工具箱",
     link: "/pages/35add9/",
-  },
-  {
-    text: '索引',
-    items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
-    ],
   },
   {
     text: '个人服务(永久免费)',
