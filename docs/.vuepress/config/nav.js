@@ -11,6 +11,10 @@ module.exports = [
         text: "软件开发",
         items: [
           {
+            text: "针对性记录",
+            link: "/pages/838920/"
+          },
+          {
             text: "Java 核心技术",
             link: "/pages/380156/"
           },
@@ -29,6 +33,10 @@ module.exports = [
           {
             text: "前端 框架和组件",
             link: "/pages/18b34b/",
+          },
+          {
+            text: "软件开发 工具箱",
+            link: "/pages/35add9/",
           },
         ]
       },
@@ -78,8 +86,17 @@ module.exports = [
     link: "/pages/1ba03b/",
   },
   {
-    text: "开发工具箱",
-    link: "/pages/35add9/",
+    text: "感谢陪伴",
+    items: [
+      {
+        text: "留言板",
+        link: "/pages/message/",
+      },
+      {
+        text: "友联",
+        link: "/pages/dc96ef/",
+      },
+    ]
   },
   {
     text: '个人服务(永久免费)',
