@@ -1,4 +1,4 @@
-<img width="180" src="https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822245.png" alt="logo" data-canonical-src="https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822245.png" style="max-width: 100%;">
+<img width="180" src="https://file.pandacode.cn//panda/202109101822245.png" alt="logo" data-canonical-src="https://file.pandacode.cn//panda/202109101822245.png" style="max-width: 100%;">
 
 # pandacode.cn
 

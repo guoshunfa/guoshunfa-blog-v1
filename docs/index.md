@@ -15,15 +15,15 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 #   - title: 软件服务开发 - Java语言
 #     details: Java 基础、Spring生态、maven、相关组件...
 #     link: /pages/380156/ # 可选
-#     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822211.png # 可选
+#     imgUrl: https://file.pandacode.cn//panda/202109101822211.png # 可选
 #   - title: 自媒体
 #     details: app使用教程、设计思想...
 #     link: /pages/6828ab/ # 可选
-#     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822073.png # 可选
+#     imgUrl: https://file.pandacode.cn//panda/202109101822073.png # 可选
 #   - title: 全能工具箱
 #     details: 在线工具、高质量博客论文、业余娱乐、辅助工作利器...
 #     link: /pages/35add9/ # 可选
-#     imgUrl: https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822005.png # 可选
+#     imgUrl: https://file.pandacode.cn//panda/202109101822005.png # 可选
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 
@@ -146,7 +146,8 @@ article: false
 
 ## 📮 联系
 
-- 微信：gsf-java
-- Email：13301203454@163.com
+- 微信：panda-code
+- Email：pandacode_cn@163.com
 - Github：[https://github.com/guoshunfa](https://github.com/guoshunfa)
 - Gitee：[https://gitee.com/guoshunfa](https://gitee.com/guoshunfa)
+- 留言：[留言板](/pages/message/)
