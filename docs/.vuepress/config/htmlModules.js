@@ -28,9 +28,9 @@ module.exports = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">微信 / 公众号</p>
-    <img src="https://gitee.com/guoshunfa/panda-files/raw/master/blog/20211220181042.png"  style="width:100%;" />
+    <img src="https://file.pandacode.cn/blog/20211220181042.png"  style="width:100%;" />
     <hr />
-    <img src="https://gitee.com/guoshunfa/panda-files/raw/master/blog/20211220181724.png"  style="width:100%;" />
+    <img src="https://file.pandacode.cn/blog/20211220181724.png"  style="width:100%;" />
     </div>`,
     sidebarB:
         `<!-- 正方形 -->

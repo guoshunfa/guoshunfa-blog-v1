@@ -6,7 +6,7 @@ module.exports = {
     nav,
     htmlModules,
     sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: 'https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822245.png', // 导航栏logo
+    logo: 'https://file.pandacode.cn//panda/202109101822245.png', // 导航栏logo
     // repo: 'panda/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 5, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -21,17 +21,17 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
     categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
-    bodyBgImg: "https://gitee.com/guoshunfa/panda-files/raw/master/blog/202202231530859.jpeg", // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
+    bodyBgImg: "https://file.pandacode.cn/blog/202202231530859.jpeg", // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 0.9, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
     titleBadge: true, // 文章标题前的图标是否显示，默认true
     titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
-        'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829762.png',
-        'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829730.png',
-        'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829641.png',
-        'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829616.png',
-        'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829575.png',
-        'https://gitee.com/guoshunfa/panda-files/raw/master//icon/snacks/202109101829534.png',
+        'https://file.pandacode.cn//icon/snacks/202109101829762.png',
+        'https://file.pandacode.cn//icon/snacks/202109101829730.png',
+        'https://file.pandacode.cn//icon/snacks/202109101829641.png',
+        'https://file.pandacode.cn//icon/snacks/202109101829616.png',
+        'https://file.pandacode.cn//icon/snacks/202109101829575.png',
+        'https://file.pandacode.cn//icon/snacks/202109101829534.png',
     ],
     // contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
 
@@ -52,7 +52,7 @@ module.exports = {
     },
     blogger: {
         // 博主信息，显示在首页侧边栏
-        avatar: 'https://gitee.com/guoshunfa/panda-files/raw/master//panda/202109101822562.png',
+        avatar: 'https://file.pandacode.cn//panda/202109101822562.png',
         name: '熊猫 🐼',
         slogan: '卷王之王',
     },
