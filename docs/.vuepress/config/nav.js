@@ -8,72 +8,36 @@ module.exports = [
     text: "软件服务",
     items: [
       {
-        text: "软件开发",
-        items: [
-          {
-            text: "针对性记录",
-            link: "/pages/838920/"
-          },
-          {
-            text: "Java 核心技术",
-            link: "/pages/380156/"
-          },
-          {
-            text: "Java 框架和组件",
-            link: "/pages/8eecf9/"
-          },
-          {
-            text: "Python 日常使用",
-            link: "/pages/8e98a2/",
-          },
-          {
-            text: "前端 核心技术",
-            link: "/pages/265807/",
-          },
-          {
-            text: "前端 框架和组件",
-            link: "/pages/18b34b/",
-          },
-          {
-            text: "软件开发 工具箱",
-            link: "/pages/35add9/",
-          },
-        ]
+        text: "概念梳理",
+        link: "/pages/838920/"
       },
       {
-        text: "软件测试",
-        items: [
-          {
-            text: "测试 核心技术",
-            link: "/pages/0f55d1/",
-          },
-          {
-            text: "测试 框架和组件",
-            link: "/pages/be1737/",
-          }
-        ]
+        text: "Java",
+        link: "/pages/380156/"
       },
       {
-        text: "软件运维",
-        items: [
-          {
-            text: "服务器运维",
-            link: "/pages/fc21a3/",
-          },
-          {
-            text: "组件服务运维",
-            link: "/pages/b58ac5/",
-          },
-        ]
+        text: "Python",
+        link: "/pages/8e98a2/",
       },
       {
-        text: "软件算法",
-        items: [
-          {
-            text: "Leetcode 攻克算法题",
-            link: "/pages/57109c/",
-          }
-        ]
+        text: "Swift",
+        link: "/pages/7e178b/",
+      },
+      {
+        text: "Web",
+        link: "/pages/265807/",
+      },
+      {
+        text: "运维",
+        link: "/pages/fc21a3/",
+      },
+      {
+        text: "算法",
+        link: "/pages/57109c/",
+      },
+      {
+        text: "软件开发 工具箱",
+        link: "/pages/35add9/",
       },
     ]
   },
