@@ -21,7 +21,8 @@
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
     "baiduPush": "node utils/baiduPush.js https://pandacode.cn && sh sh/baiduPush.sh",
-    "editFm": "node utils/editFrontmatter.js"
+    "editFm": "node utils/editFrontmatter.js",
+    "deploy": "sh sh/deploy.sh"
   },
   "dependencies": {
     "async-validator": "1.11.5",
