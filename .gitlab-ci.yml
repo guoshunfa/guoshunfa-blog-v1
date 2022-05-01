@@ -23,7 +23,7 @@ deploy-job:       # This job runs in the build stage, which runs first.
     - echo "deploy 开始了"
     - npm install
     - npm run build
-    - chattr -i ./docs/.vuepress/dist/.user.ini
+    # - chattr -i ./docs/.vuepress/dist/.user.ini
     - sudo mv ./docs/.vuepress/dist/* /www/wwwroot/pandadoc
     - echo "deploy 结束"
 
