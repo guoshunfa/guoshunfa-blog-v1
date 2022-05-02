@@ -15,7 +15,6 @@
 
 stages:          # List of stages for jobs, and their order of execution
   - deploy
-  - remove
 
 deploy-job:       # This job runs in the build stage, which runs first.
   stage: deploy
@@ -24,12 +23,5 @@ deploy-job:       # This job runs in the build stage, which runs first.
     - npm install
     - npm run build
     # - chattr -i ./docs/.vuepress/dist/.user.ini
-    - sudo mv ./docs/.vuepress/dist/* /www/wwwroot/pandadoc
+    - sudo cp ./docs/.vuepress/dist/* /www/wwwroot/pandadoc
     - echo "deploy 结束"
-
-remove-job:
-  stage: remove
-  script:
-    - echo "删除打包、工具包文件"
-    - rm -rf node_modules
-    - rm -rf ./docs/.vuepress/dist
