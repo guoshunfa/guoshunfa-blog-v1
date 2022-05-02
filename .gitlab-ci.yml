@@ -23,5 +23,6 @@ deploy-job:       # This job runs in the build stage, which runs first.
     - npm install
     - npm run build
     # - chattr -i ./docs/.vuepress/dist/.user.ini
-    - cp ./docs/.vuepress/dist/* /www/wwwroot/pandadoc
+    - rm -rf /www/wwwroot/pandadoc/*
+    - cp -r ./docs/.vuepress/dist/* /www/wwwroot/pandadoc
     - echo "deploy 结束"
