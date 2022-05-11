@@ -5,39 +5,80 @@ module.exports = [
     link: "/",
   },
   {
-    text: "软件服务",
+    text: "导航页",
     items: [
       {
-        text: "概念梳理",
-        link: "/pages/838920/"
-      },
-      {
-        text: "Java",
-        link: "/pages/380156/"
-      },
-      {
-        text: "Python",
-        link: "/pages/8e98a2/",
-      },
-      {
-        text: "Swift",
-        link: "/pages/7e178b/",
-      },
-      {
-        text: "Web",
-        link: "/pages/265807/",
-      },
-      {
-        text: "运维",
-        link: "/pages/fc21a3/",
-      },
-      {
-        text: "算法",
-        link: "/pages/57109c/",
+        text: "平台大纲",
+        link: "/pages/5dcca4/",
       },
       {
         text: "软件开发 工具箱",
         link: "/pages/35add9/",
+      },
+    ]
+  },
+  {
+    text: "软件服务",
+    items: [
+      {
+        text: "软件相关概念梳理",
+        items: [
+          {
+            text: "软件框架",
+            link: "/pages/f9b6c0/"
+          },
+          {
+            text: "数据库",
+            link: "/pages/70e065/"
+          },
+          {
+            text: "加密算法",
+            link: "/pages/838920/"
+          },
+        ]
+      },
+      {
+        text: "软件开发",
+        items: [
+          {
+            text: "Java语言",
+            link: "/pages/380156/"
+          },
+          {
+            text: "Python语言",
+            link: "/pages/5bfa96/",
+          },
+          {
+            text: "Swift语言",
+            link: "/pages/7e178b/",
+          },
+          {
+            text: "Web前端",
+            link: "/pages/265807/",
+          },
+        ]
+      },
+      {
+        text: "软件算法",
+        items: [
+          {
+            text: "Leetcode攻克算法题",
+            link: "/pages/57109c/",
+          }
+        ]
+      },
+      {
+        text: "软件运维",
+        items: [
+          {
+            text: "服务器运维",
+            link: "/pages/fc21a3/",
+          },
+          {
+            text: "服务组件运维",
+            link: "/pages/b58ac5/",
+          },
+        ]
       },
     ]
   },
@@ -50,7 +91,7 @@ module.exports = [
     link: "/pages/1ba03b/",
   },
   {
-    text: "感谢陪伴",
+    text: "留言",
     items: [
       {
         text: "留言板",
