@@ -83,7 +83,7 @@ module.exports = [
     ]
   },
   {
-    text: "自媒体",
+    text: "简单娱乐",
     link: "/pages/d9e62a/",
   },
   {
@@ -91,17 +91,8 @@ module.exports = [
     link: "/pages/1ba03b/",
   },
   {
-    text: "留言",
-    items: [
-      {
-        text: "留言板",
-        link: "/pages/message/",
-      },
-      {
-        text: "友联",
-        link: "/pages/dc96ef/",
-      },
-    ]
+    text: "留言板",
+    link: "/pages/message/",
   },
   {
     text: '个人服务(永久免费)',

@@ -1,8 +1,9 @@
 ---
 home: true
-# heroImage: /img/web.pn
-heroText: 熊猫 code
-tagline: 从来没有什么意外。
+heroImage: https://file.pandacode.cn//panda/202109101822245.png
+heroText: 熊猫代码
+tagline: 菜鸟程序员"熊猫代码"的知识共享平台
+
 # 昨天是历史，明天是谜团，只有今天是天赐的礼物。
 # 你的思想就如同水，我的朋友，当水波摇曳时，很难看清，不过当它平静下来，答案就清澈见底了。
 # 从来没有什么意外。
@@ -26,12 +27,13 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 #     imgUrl: https://file.pandacode.cn//panda/202109101822005.png # 可选
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
-
-postList: simple
-simplePostListLength: 0 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
-article: false
+postList: none
+# simplePostListLength: 0 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
+# article: false
 ---
-## 👀 快捷通道
+
+
+<!-- ## 👀 快捷通道
 **常用在线工具：**
 ::: cardList 4
 ```yaml
@@ -151,3 +153,12 @@ article: false
 - Github：[https://github.com/guoshunfa](https://github.com/guoshunfa)
 - Gitee：[https://gitee.com/guoshunfa](https://gitee.com/guoshunfa)
 - 留言：[留言板](/pages/message/)
+
+<ClientOnly>
+  <WebInfo />
+  <IndexBigImg />
+  <Fantasy />
+</ClientOnly>
+
+<script>
+</script> -->

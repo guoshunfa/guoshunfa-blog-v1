@@ -1,18 +1,18 @@
-stages:
-  - deploy
-  - baidu
+# stages:
+#   - deploy
+#   - baidu
 
-deploy-job:
-  stage: deploy
-  script:
-    - echo "deploy 开始了"
-    - npm install
-    - npm run build
-    - npm run deploy
-    - echo "deploy 结束"
+# deploy-job:
+#   stage: deploy
+#   script:
+#     - echo "deploy 开始了"
+#     - npm install
+#     - npm run build
+#     - npm run deploy
+#     - echo "deploy 结束"
 
-baidu-job:
-  stage: baidu
-  script:
-    - echo "发布到百度"
-    - npm run baiduPush
+# baidu-job:
+#   stage: baidu
+#   script:
+#     - echo "发布到百度"
+#     - npm run baiduPush

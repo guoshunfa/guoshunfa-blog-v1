@@ -21,7 +21,7 @@ cd panda-doc
 yarn install
 
 # 运行项目
-yarn dev
+yarn start
 ```
 
 # 其他操作
