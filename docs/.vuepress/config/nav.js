@@ -18,27 +18,10 @@ module.exports = [
     ]
   },
   {
-    text: "软件服务",
+    text: "程序员笔记",
     items: [
       {
-        text: "软件相关概念梳理",
-        items: [
-          {
-            text: "软件框架",
-            link: "/pages/f9b6c0/"
-          },
-          {
-            text: "数据库",
-            link: "/pages/70e065/"
-          },
-          {
-            text: "加密算法",
-            link: "/pages/838920/"
-          },
-        ]
-      },
-      {
-        text: "软件开发",
+        text: "开发语言",
         items: [
           {
             text: "Java语言",
@@ -56,10 +39,30 @@ module.exports = [
             text: "Web前端",
             link: "/pages/265807/",
           },
+          {
+            text: "C#语言",
+          },
         ]
       },
       {
-        text: "软件算法",
+        text: "开发方向",
+        items: [
+          {
+            text: "Web开发",
+            link: "/pages/8eecf9/",
+          },
+          {
+            text: "游戏开发",
+            link: "/pages/4e32ff/",
+          },
+          {
+            text: "APP开发",
+            link: "/pages/b34375/",
+          },
+        ]
+      },
+      {
+        text: "算法",
         items: [
           {
             text: "Leetcode攻克算法题",
@@ -68,7 +71,7 @@ module.exports = [
         ]
       },
       {
-        text: "软件运维",
+        text: "运维",
         items: [
           {
             text: "服务器运维",
