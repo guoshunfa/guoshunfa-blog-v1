@@ -1,16 +1,16 @@
 // nav
 module.exports = [
-  {
-    text: "首页",
-    link: "/",
-  },
+  // {
+  //   text: "首页",
+  //   link: "/",
+  // },
   {
     text: "导航页",
     items: [
-      {
-        text: "平台大纲",
-        link: "/pages/5dcca4/",
-      },
+      // {
+      //   text: "平台大纲",
+      //   link: "/pages/5dcca4/",
+      // },
       {
         text: "软件开发 工具箱",
         link: "/pages/35add9/",
@@ -86,17 +86,17 @@ module.exports = [
     ]
   },
   {
-    text: "简单娱乐",
+    text: "娱乐亿下下",
     link: "/pages/d9e62a/",
   },
   {
-    text: "书中自有颜如玉",
-    link: "/pages/1ba03b/",
+    text: "学无止境",
+    link: "/pages/0fba61/",
   },
-  {
-    text: "留言板",
-    link: "/pages/message/",
-  },
+  // {
+  //   text: "留言板",
+  //   link: "/pages/message/",
+  // },
   {
     text: '个人服务(永久免费)',
     items: [
