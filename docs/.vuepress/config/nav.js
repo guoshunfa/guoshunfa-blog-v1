@@ -91,7 +91,7 @@ module.exports = [
   },
   {
     text: "学无止境",
-    link: "/pages/0fba61/",
+    link: "/pages/1ef98e/",
   },
   // {
   //   text: "留言板",
