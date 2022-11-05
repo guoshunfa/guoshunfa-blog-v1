@@ -60,24 +60,9 @@ module.exports = {
                 link: 'mailto:13301203454@163.com',
             },
             {
-                iconClass: 'icon-github',
-                title: 'GitHub',
-                link: 'https://github.com/guoshunfa',
-            },
-            {
                 iconClass: 'icon-gitee',
                 title: 'Gitee',
                 link: 'https://gitee.com/guoshunfa',
-            },
-            {
-                iconClass: 'icon-rss',
-                title: '网站首页',
-                link: 'https://pandacode.cn',
-            },
-            {
-                iconClass: 'icon-youjian',
-                title: '联系我',
-                link: 'https://pandacode.cn/pages/message/',
             },
         ],
     },

@@ -39,9 +39,6 @@ module.exports = [
             text: "Web前端",
             link: "/pages/265807/",
           },
-          {
-            text: "C#语言",
-          },
         ]
       },
       {
@@ -86,21 +83,29 @@ module.exports = [
     ]
   },
   {
-    text: "娱乐亿下下",
-    link: "/pages/d9e62a/",
+    text: "躺平",
+    link: "/pages/e73f45/",
   },
   {
-    text: "学无止境",
-    link: "/pages/1ef98e/",
+    text: "再看亿本",
+    link: "/pages/ab4185/",
+  },
+  {
+    text: "我的Gitee",
+    link: "https://gitee.com/guoshunfa",
+  },
+  {
+    text: "发送邮件给我",
+    link: "mailto:13301203454@163.com",
   },
   // {
   //   text: "留言板",
   //   link: "/pages/message/",
   // },
-  {
-    text: '个人服务(永久免费)',
-    items: [
-      { text: '微信公众号文章在线编辑', link: 'http://wechat.pandacode.cn' },
-    ],
-  },
+  // {
+  //   text: '个人服务(永久免费)',
+  //   items: [
+  //     { text: '微信公众号文章在线编辑', link: 'http://wechat.pandacode.cn' },
+  //   ],
+  // },
 ]
