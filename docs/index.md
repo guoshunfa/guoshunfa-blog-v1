@@ -2,7 +2,7 @@
 home: true
 heroImage: https://file.pandacode.cn//panda/202109101822245.png
 heroText: 熊猫代码
-tagline: 菜鸟程序员"熊猫代码"的知识共享平台
+tagline: 资深菜鸟程序员"熊猫代码"的知识共享平台
 
 # 昨天是历史，明天是谜团，只有今天是天赐的礼物。
 # 你的思想就如同水，我的朋友，当水波摇曳时，很难看清，不过当它平静下来，答案就清澈见底了。
