@@ -25,7 +25,7 @@ module.exports = [
         items: [
           {
             text: "Java语言",
-            link: "/pages/380156/"
+            link: "/pages/11fdf0/"
           },
           {
             text: "Python语言",
@@ -46,7 +46,7 @@ module.exports = [
         items: [
           {
             text: "Web开发",
-            link: "/pages/8eecf9/",
+            link: "/pages/c18e26/",
           },
           {
             text: "游戏开发",
