@@ -1,31 +1,28 @@
 {
-  "name": "panda-doc",
-  "version": "1.1.1",
+  "name": "panda-repository",
+  "version": "1.2.0",
+  "description": "熊猫知识库平台",
   "main": "index.js",
+  "repository": "http://pandacode.cn",
+  "author": "郭顺发 <13301203454@163.com>",
   "license": "MIT",
   "scripts": {
-    "start": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "baiduPush": "node utils/baiduPush.js https://pandacode.cn && sh sh/baiduPush.sh",
-    "editFm": "node utils/editFrontmatter.js",
-    "deploy": "sh sh/deploy.sh",
-    "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "sh deploy/push-server/deploy.sh"
   },
   "devDependencies": {
-    "dayjs": "^1.9.7",
-    "inquirer": "^7.1.0",
-    "json2yaml": "^1.1.0",
-    "vuepress": "1.9.2",
-    "vuepress-plugin-baidu-tongji": "^1.0.1",
-    "vuepress-plugin-demo-block": "^0.7.2",
-    "vuepress-plugin-fulltext-search": "^2.2.1",
-    "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-thirdparty-search": "^1.0.2",
-    "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.12.8",
-    "yamljs": "^0.3.0"
+    "@vue/component-compiler-utils": "^3.3.0",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.53",
+    "@vuepress/plugin-search": "^2.0.0-beta.53",
+    "directory-tree": "^3.4.0",
+    "lru-cache": "^7.14.1",
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0",
+    "vuepress": "^2.0.0-beta.53",
+    "vuepress-plugin-comment2": "^2.0.0-beta.129"
   },
   "dependencies": {
-    "lru-cache": "^7.14.0"
+    "vuepress-plugin-anchor-right": "0.0.1-beta.7"
   }
 }

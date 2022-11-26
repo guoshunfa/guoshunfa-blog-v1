@@ -1,29 +1,32 @@
-const head = require('./config/head.js');
-const plugins = require('./config/plugins.js');
-const themeConfig = require('./config/themeConfig.js');
+import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
+// 配置
+import headConfig from './config/headConfig'
+import navbarConfig from './config/navbarConfig'
+import pluginsConfig from './config/pluginsConfig'
+import sidebarConfig from './config/sidebarConfig'
 
-module.exports = {
-  // base: "./", // 打包想本地访问就释放注解
-  theme: 'vdoing', // 使用npm包主题
-  // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
-  title: "熊猫代码",
-  description: '菜鸟程序员"熊猫代码"的知识共享平台',
-  // base: '/', // 格式：'/<仓库名>/'， 默认'/'
-  markdown: {
-    lineNumbers: true, // 代码行号
-  },
-  head,
-  plugins,
-  themeConfig,
-
-  markdown: {
-    // lineNumbers: true,
-    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
-  },
-
-  // 监听文件变化并重新构建
-  extraWatchFiles: [
-    '.vuepress/config.js',
-    '.vuepress/config/htmlModules.js',
-  ]
-}
+export default defineUserConfig({
+    // 站点配置
+    base: "/",
+    lang: 'zh-CN',
+    title: '熊猫代码知识库',
+    description: '这是我的知识库平台！',
+    head: headConfig,
+    // 在这里进行默认主题配置
+    theme: defaultTheme({
+        navbar: navbarConfig,
+        logo: '/images/logo/高清logo源文件.svg',
+        // 在夜间模式中使用的 Logo 图片的 URL。
+        // logoDark: '',
+        sidebar: sidebarConfig,
+        sidebarDepth: 5,
+        lastUpdatedText: "最近更新时间",
+        contributorsText: '贡献者',
+        backToHome: '返回首页',
+        openInNewWindow: '打开新的窗口'
+    }),
+    plugins: pluginsConfig,
+    // 通用配置项
+    // permalinkPattern: ':year/:month/:day/:slug.html',
+})
