@@ -12,7 +12,7 @@ export default {
     '/md/dba/': dba,
     '/md/gamer/': gamer,
     '/md/op/': op,
-    '/md/other/': other,
+    '/md/other/90.tools': other,
     '/md/pm/': pm,
     '/md/por/': por,
     '/md/rd/': rd,

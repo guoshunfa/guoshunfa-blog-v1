@@ -45,6 +45,11 @@ export default [
         activeMatch: '^/md/por/',
     },
     {
+        text: '工具箱',
+        link: '/md/other/90.tools.md',
+        activeMatch: '/md/other/90.tools.md',
+    },
+    {
         text: '留言板',
         link: '/md/other/98.message-board'
     },

@@ -3,7 +3,6 @@ import { commentPlugin } from "vuepress-plugin-comment2";
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { getDirname, path } from '@vuepress/utils'
 const __dirname = getDirname(import.meta.url)
-import vuepressPluginAnchorRight from 'vuepress-plugin-anchor-right'
 
 export default [
   // 右侧目录
@@ -33,19 +32,4 @@ export default [
       componentsDir: path.resolve(__dirname, '../../', 'components'),
     }
   ),
-  vuepressPluginAnchorRight(
-    {
-      showDepth: 2,
-      ignore: [
-        '/',
-        '/api/'
-        // 更多...
-      ],
-      expand: {
-        trigger: 'hover',
-        clickModeDefaultOpen: true
-      },
-      customClass: 'your-customClass',
-    }
-  )
 ]
