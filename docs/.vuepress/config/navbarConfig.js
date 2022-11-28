@@ -7,13 +7,45 @@ export default [
                 link: '/md/rd/basic/java/java-basic/01.java-introduce.md',
                 // 该元素将一直处于激活状态
                 activeMatch: '^/md/rd/',
+                children: [
+                    {
+                        text: '软件开发基础',
+                        link: '/md/rd/basic/java/java-basic/01.java-introduce.md',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/rd/basic',
+                    },
+                    {
+                        text: '软件开发框架',
+                        link: '/md/rd/framework/web/java/spring/01.spring/01.spring-introduce.html',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/rd/framework',
+                    },
+                    {
+                        text: '软件开发项目',
+                        link: '/md/rd/project/build-project/construct-framework-springboot/',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/rd/project',
+                    },
+                    {
+                        text: '软件开发工具',
+                        link: '/md/rd/tool/ide/idea/05.idea-debug.md',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/rd/tool',
+                    },
+                    {
+                        text: '软件开发算法',
+                        link: '/md/rd/algorithm/leetcode/1.md',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/rd/algorithm',
+                    },
+                ]
             },
-            // {
-            //     text: '服务器运维笔记',
-            //     link: '/md/op/',
-            //     // 该元素将一直处于激活状态
-            //     activeMatch: '^/md/op/',
-            // },
+            {
+                text: '服务器运维笔记',
+                link: '/md/op/02.server-module/01.mongodb/01.mongodb-introduce.md',
+                // 该元素将一直处于激活状态
+                activeMatch: '^/md/op/',
+            },
             // {
             //     text: '数据库管理笔记',
             //     link: '/md/dba/',

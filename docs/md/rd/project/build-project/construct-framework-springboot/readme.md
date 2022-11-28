@@ -1,8 +1,3 @@
----
-title: 单体SpringBoot - 搭建清单
-date: 2022-10-08 09:30:11
-permalink: /pages/c18e26/
----
 # 单体SpringBoot - 搭建清单
 
 接下来我们要搭建一个单体的SpringBoot项目，我们需要做以下几步。

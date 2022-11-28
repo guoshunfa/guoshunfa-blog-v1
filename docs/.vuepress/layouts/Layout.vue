@@ -1,10 +1,14 @@
 <template>
   <ParentLayout>
+    <template #page-content-bottom>
+      
+    </template>
     <template #page-bottom>
       <CommentService :darkmode="isDarkMode" />
     </template>
-    <template #page-content-top>
-    </template>
+    <!-- <template #page>
+      123
+    </template> -->
   </ParentLayout>
 </template>
 <script setup lang="ts">
