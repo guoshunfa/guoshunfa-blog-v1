@@ -35,10 +35,10 @@ export default [
                                 ],
                             },
                             {
-                                test: '其他',
+                                text: '其他',
                                 children: [
                                     {
-                                        test: 'mybatis',
+                                        text: 'mybatis',
                                         children: [
                                             '/md/rd/framework/web/java/other/06.mybatis/01.mybatis-introduce.md',
                                             '/md/rd/framework/web/java/other/06.mybatis/02.mybatis-configuration.md',

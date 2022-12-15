@@ -45,6 +45,14 @@ export default [
                 link: '/md/op/02.server-module/01.mongodb/01.mongodb-introduce.md',
                 // 该元素将一直处于激活状态
                 activeMatch: '^/md/op/',
+                children: [
+                    {
+                        text: '服务组件运维',
+                        link: '/md/op/02.server-module/01.mongodb/01.mongodb-introduce.md',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/op/02.server-module/',
+                    },
+                ]
             },
             // {
             //     text: '数据库管理笔记',
@@ -52,12 +60,32 @@ export default [
             //     // 该元素将一直处于激活状态
             //     activeMatch: '^/md/dba/',
             // },
-            // {
-            //     text: '软件测试笔记',
-            //     link: '/md/te/',
-            //     // 该元素将一直处于激活状态
-            //     activeMatch: '^/md/te/',
-            // },
+            {
+                text: '软件测试笔记',
+                link: '/md/te/concept/01.black-white-box-testing.md',
+                // 该元素将一直处于激活状态
+                activeMatch: '^/md/te/',
+                children: [
+                    {
+                        text: '软件测试概念',
+                        link: '/md/te/concept/01.black-white-box-testing.md',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/te/concept/',
+                    },
+                    {
+                        text: '自动化测试',
+                        link: '/md/te/automation/01.python/30.python-selenium-unittest.md',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/te/automation/',
+                    },
+                    {
+                        text: '压力测试',
+                        link: '/md/te/pressure/01.jmeter/01.jmeter-introduce.md',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/te/pressure/',
+                    },
+                ]
+            },
             // {
             //     text: '项目管理和产品管理',
             //     link: '/md/pm/',
@@ -82,7 +110,25 @@ export default [
         activeMatch: '/md/other/90.tools.md',
     },
     {
+        text: '时间线',
+        link: '/md/other/01.timeline.md',
+        activeMatch: '^/md/other/01.timeline',
+    },
+    {
         text: '留言板',
         link: '/md/other/98.message-board'
+    },
+    {
+        text: '我的',
+        children: [
+            {
+                text: 'Gitee',
+                link: 'https://gitee.com/guoshunfa'
+            },
+            {
+                text: '博客园',
+                link: 'https://www.cnblogs.com/guoshunfa'
+            },
+        ]
     },
 ]

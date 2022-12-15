@@ -10,17 +10,12 @@ export default [
                         children: [
                             '/md/op/02.server-module/01.mongodb/01.mongodb-introduce.md',
                             '/md/op/02.server-module/01.mongodb/02.mongodb-command.md',
-                            '/md/op/02.server-module/01.mongodb/03.mongodb-js-script.md',
-                            '/md/op/02.server-module/01.mongodb/04.mongodb-stored-procedure.md',
-                            '/md/op/02.server-module/01.mongodb/50.mongodb-error-record.md'
                         ],
                     },
                     {
                         text: 'mysql数据库',
                         children: [
                             '/md/op/02.server-module/02.mysql/01.mysql-introduce.md',
-                            '/md/op/02.server-module/02.mysql/02.sql-command.md',
-                            '/md/op/02.server-module/02.mysql/03.mysql-db-script.md',
                         ],
                     },
                     {
@@ -34,7 +29,6 @@ export default [
                         text: 'oracle数据库',
                         children: [
                             '/md/op/02.server-module/04.oracle/01.oracle-introduce.md',
-                            '/md/op/02.server-module/04.oracle/10.oracle-stored-procedure.md',
                         ],
                     },
                     {
@@ -85,13 +79,6 @@ export default [
                         text: 'nexus maven仓库',
                         children: [
                             '/md/op/02.server-module/40.nexus/01.nexus-introduce.md',
-                        ],
-                    },
-                    {
-                        text: 'jmeter压力测试',
-                        children: [
-                            '/md/op/02.server-module/41.jmeter/01.jmeter-introduce.md',
-                            '/md/op/02.server-module/41.jmeter/02.jmeter-demo.md',
                         ],
                     },
                     {
