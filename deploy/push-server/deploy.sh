@@ -14,7 +14,7 @@ echo "---当前脚本文件地址：${dirname}---"
 echo "---项目构建、打包---"
 # cd ../../
 # npm install
-yarn docs:build
+npm run docs:build
 cd ./docs/.vuepress
 tar -zcf dist.tar.gz dist
 

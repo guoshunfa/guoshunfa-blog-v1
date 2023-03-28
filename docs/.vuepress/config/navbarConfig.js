@@ -109,11 +109,11 @@ export default [
         link: '/md/other/90.tools.md',
         activeMatch: '/md/other/90.tools.md',
     },
-    {
-        text: '时间线',
-        link: '/md/other/01.timeline.md',
-        activeMatch: '^/md/other/01.timeline',
-    },
+    // {
+    //     text: '时间线',
+    //     link: '/md/other/01.timeline.md',
+    //     activeMatch: '^/md/other/01.timeline',
+    // },
     {
         text: '留言板',
         link: '/md/other/98.message-board'
@@ -124,6 +124,10 @@ export default [
             {
                 text: 'Gitee',
                 link: 'https://gitee.com/guoshunfa'
+            },
+            {
+                text: '腾讯云开发者社区',
+                link: 'https://cloud.tencent.com/developer/user/7784141'
             },
             {
                 text: '博客园',

@@ -20,6 +20,7 @@ const isDarkMode = ref(false);
 let observer;
 
 onMounted(() => {
+  console.log(123)
   const html = document.querySelector("html") as HTMLElement;
 
   isDarkMode.value = html.classList.contains("dark");

@@ -10,13 +10,13 @@ export default defineUserConfig({
     // 站点配置
     base: "/",
     lang: 'zh-CN',
-    title: '熊猫代码知识库',
+    title: 'GUOSHUNFA.COM',
     description: '这是我的知识库平台！',
     head: headConfig,
     // 在这里进行默认主题配置
     theme: defaultTheme({
         navbar: navbarConfig,
-        logo: '/images/logo/高清logo源文件.svg',
+        // logo: '/images/logo/高清logo源文件.svg',
         // 在夜间模式中使用的 Logo 图片的 URL。
         // logoDark: '',
         sidebar: sidebarConfig,
