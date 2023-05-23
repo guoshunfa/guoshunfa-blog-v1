@@ -1,6 +1,6 @@
 export default [
     {
-        text: '运维人员笔记',
+        text: '服务运维笔记',
         children: [
             {
                 text: '服务组件运维',

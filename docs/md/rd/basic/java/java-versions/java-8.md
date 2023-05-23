@@ -1,13 +1,3 @@
----
-date: 2021-10-27 11:20:20
-permalink: /pages/6f45e6/
-author: 
-  name: 熊猫代码
-  link: https://pandacode.cn
-tags: 
-  - null
-title: Java版本特性 - jdk8
----
 # Java版本特性 - jdk8
 
 ## 1. stream + lambda 操作集合数据

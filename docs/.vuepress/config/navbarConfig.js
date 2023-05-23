@@ -1,6 +1,6 @@
 export default [
     {
-        text: '程序员笔记',
+        text: '工作笔记',
         children: [
             {
                 text: '软件开发笔记',
@@ -46,6 +46,12 @@ export default [
                 // 该元素将一直处于激活状态
                 activeMatch: '^/md/op/',
                 children: [
+                    {
+                        text: '服务器运维',
+                        link: '/md/op/01.server/01.linux/01.linux-question.md',
+                        // 该元素将一直处于激活状态
+                        activeMatch: '^/md/op/01.server/',
+                    },
                     {
                         text: '服务组件运维',
                         link: '/md/op/02.server-module/01.mongodb/01.mongodb-introduce.md',
@@ -128,10 +134,6 @@ export default [
             {
                 text: '腾讯云开发者社区',
                 link: 'https://cloud.tencent.com/developer/user/7784141'
-            },
-            {
-                text: '博客园',
-                link: 'https://www.cnblogs.com/guoshunfa'
             },
         ]
     },
