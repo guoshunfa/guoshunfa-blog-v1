@@ -19,6 +19,6 @@ features:
     details: 记录了电视剧推荐、视频剪辑教程、摄像等笔记。
   - title: 读书分享
     details: 记录了平时看的一些书籍和优质思维模式。
-footer: MIT | 2021-2023 | GUOSHUNFA | <a class="foot" href="https://beian.miit.gov.cn/" target="_blank" rel="external nofollow">京ICP备2021027819号</a>
+footer: MIT | 2020-2022 | GUOSHUNFA | <a class="foot" href="https://beian.miit.gov.cn/" target="_blank" rel="external nofollow">京ICP备2021027819号</a>
 footerHtml: true
 ---
