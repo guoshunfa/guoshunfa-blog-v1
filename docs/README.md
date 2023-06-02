@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 
+heroText: 当前平台作者不在维护，请到https://www.guoshunfa.com
 tagline: 
 heroImage: /images/logo/高清logo源文件.svg
 # heroImageDark: /images/logo/黑色底白色字.png
