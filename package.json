@@ -10,9 +10,9 @@
   "author": "郭顺发 <13301203454@163.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:deploy": "sh deploy/deploy_public.sh"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh deploy/deploy_public.sh"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.3.0",
